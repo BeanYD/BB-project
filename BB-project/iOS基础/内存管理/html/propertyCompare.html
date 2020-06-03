@@ -1,0 +1,25 @@
+<!--
+ * @Author: Bean.Ding
+ * @Date: 2020-06-03 15:14:34
+ * @LastEditTime: 2020-06-03 15:47:09
+ * @LastEditors: Bean.Ding
+--> 
+<!DOCTYPE html>
+<html style="width: 90%;margin-left: 5%;">
+    <head>
+        <meta charset="utf-8">
+        <title>属性修饰符对比</title>
+    </head>
+    <body>
+        <h2>weak与assign</h2>
+        <p>都可以修饰对象类型，assign修饰对象需要对象释放后，在合适的位置将指针置为nil</p>
+        <p>Q1:使用代理过程中，<b>Delegate</b>>属性的修饰符可以使用assign么？如果使用assign会出现什么问题？怎么解决？</p>
+        <p>可以使用。使用之后会产生野指针。在属性所在对象释放后，手动将该指针置为nil</p>
+        <br>
+        <h2>copy与strong</h2>
+        <p>如果属性是strong修饰，传到对象里的数据会根据所传值得改变而改变，但copy并不会这样，保证了数据的一致性。</p>
+        <p>原因：</p>
+        <p><b>@property (nonatomic, copy) NSString *stringCopy</b>的 <b>setter</b> 方法实际是：在 setter 方法内对<b>stringCopy</b>进行了一次<b>[stringCopy copy]</b>操作</p>
+        
+    </body>
+</html>

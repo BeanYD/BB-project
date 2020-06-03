@@ -1,0 +1,78 @@
+<!--
+ * @Author: Bean.Ding
+ * @Date: 2020-06-03 13:46:22
+ * @LastEditTime: 2020-06-03 15:48:02
+ * @LastEditors: Bean.Ding
+-->
+<!DOCTYPE html>
+<html style="width: 90%;margin-left: 5%;">
+    <head>
+        <meta charset="utf-8" />
+        <title>属性相关</title>
+
+        <style>
+            table {
+                width: 100%;
+                margin-bottom: 20px;
+                border-collapse: collapse;
+                border: 1px solid #eee;
+                border-left: none;
+                word-break: break-word;
+            }
+
+            th, td {
+                padding: 8px;
+                border: 1px solid #eee;
+                line-height: 20px;
+                min-width: 80px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h2>属性修饰符</h2>
+        <p>我们在声明属性时都会同时声明它的一个修饰符，用来表明它的一个操作行为等。</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>修饰符</th>
+                    <th>作用</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>readwrite</td>
+                    <td>属性可读可写，生成getter+setter，默认属性</td>
+                </tr>
+                <tr>
+                    <td>readonly</td>
+                    <td>属性只读，只生成getter</td>
+                </tr>
+                <tr>
+                    <td>nonatomic</td>
+                    <td>非原子属性，提高性能但线程不安全</td>
+                </tr>
+                <tr>
+                    <td>atomic</td>
+                    <td>原子属性，线程安全但可能降低性能</td>
+                </tr>
+                <tr>
+                    <td>assign</td>
+                    <td>简单赋值，不更改引用计数，用于修饰基础类型的数据（NSInteger）和C语言类型数据(int,float,double,char,bool)</td>
+                </tr>
+                <tr>
+                    <td>strong</td>
+                    <td>强引用，持有对象，引用计数+1</td>
+                </tr>
+                <tr>
+                    <td>weak</td>
+                    <td>弱引用，不持有对象，不增加引用计数</td>
+                </tr>
+                <tr>
+                    <td>copy</td>
+                    <td>深拷贝</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
