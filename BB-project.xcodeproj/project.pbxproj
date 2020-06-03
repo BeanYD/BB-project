@@ -37,11 +37,15 @@
 		D7D397BC248746D900FDB7BA /* BBNetworkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D397BB248746D900FDB7BA /* BBNetworkViewController.m */; };
 		D7D397C3248769AE00FDB7BA /* BBPropertyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D397C2248769AE00FDB7BA /* BBPropertyViewController.m */; };
 		D7D397CA2487809000FDB7BA /* BBDescViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D397C92487809000FDB7BA /* BBDescViewController.m */; };
-		D7D397D02487840100FDB7BA /* property.html in Resources */ = {isa = PBXBuildFile; fileRef = D7D397CF2487840100FDB7BA /* property.html */; };
+		D7D397D02487840100FDB7BA /* propertyDesc.html in Resources */ = {isa = PBXBuildFile; fileRef = D7D397CF2487840100FDB7BA /* propertyDesc.html */; };
 		D7D397D32487852600FDB7BA /* BBDescCompareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D397D22487852600FDB7BA /* BBDescCompareViewController.m */; };
 		D7D397D52487886D00FDB7BA /* propertyCompare.html in Resources */ = {isa = PBXBuildFile; fileRef = D7D397D42487886D00FDB7BA /* propertyCompare.html */; };
 		D7D397D824878E7500FDB7BA /* BBCopyDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D397D724878E7500FDB7BA /* BBCopyDetailViewController.m */; };
 		D7D397DB24878E8200FDB7BA /* BBWeakDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D397DA24878E8200FDB7BA /* BBWeakDetailViewController.m */; };
+		D7D397DF2487967C00FDB7BA /* BBMultithreadModelLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D397DE2487967C00FDB7BA /* BBMultithreadModelLayer.m */; };
+		D7D397E624879B7C00FDB7BA /* BBOCAlgorithmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D397E524879B7C00FDB7BA /* BBOCAlgorithmViewController.m */; };
+		D7D397E924879C0000FDB7BA /* BBOtherModelLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D397E824879C0000FDB7BA /* BBOtherModelLayer.m */; };
+		D7D397EE2487A05E00FDB7BA /* BBDesignModelLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D397ED2487A05E00FDB7BA /* BBDesignModelLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -126,7 +130,7 @@
 		D7D397C424876BD700FDB7BA /* BBMemoryDataKeys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBMemoryDataKeys.h; sourceTree = "<group>"; };
 		D7D397C82487809000FDB7BA /* BBDescViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBDescViewController.h; sourceTree = "<group>"; };
 		D7D397C92487809000FDB7BA /* BBDescViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBDescViewController.m; sourceTree = "<group>"; };
-		D7D397CF2487840100FDB7BA /* property.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = property.html; sourceTree = "<group>"; };
+		D7D397CF2487840100FDB7BA /* propertyDesc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = propertyDesc.html; sourceTree = "<group>"; };
 		D7D397D12487852600FDB7BA /* BBDescCompareViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBDescCompareViewController.h; sourceTree = "<group>"; };
 		D7D397D22487852600FDB7BA /* BBDescCompareViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBDescCompareViewController.m; sourceTree = "<group>"; };
 		D7D397D42487886D00FDB7BA /* propertyCompare.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = propertyCompare.html; sourceTree = "<group>"; };
@@ -134,6 +138,17 @@
 		D7D397D724878E7500FDB7BA /* BBCopyDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBCopyDetailViewController.m; sourceTree = "<group>"; };
 		D7D397D924878E8200FDB7BA /* BBWeakDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBWeakDetailViewController.h; sourceTree = "<group>"; };
 		D7D397DA24878E8200FDB7BA /* BBWeakDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBWeakDetailViewController.m; sourceTree = "<group>"; };
+		D7D397DD2487967C00FDB7BA /* BBMultithreadModelLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBMultithreadModelLayer.h; sourceTree = "<group>"; };
+		D7D397DE2487967C00FDB7BA /* BBMultithreadModelLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBMultithreadModelLayer.m; sourceTree = "<group>"; };
+		D7D397E02487969C00FDB7BA /* BBMultithreadDataKeys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBMultithreadDataKeys.h; sourceTree = "<group>"; };
+		D7D397E424879B7C00FDB7BA /* BBOCAlgorithmViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBOCAlgorithmViewController.h; sourceTree = "<group>"; };
+		D7D397E524879B7C00FDB7BA /* BBOCAlgorithmViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBOCAlgorithmViewController.m; sourceTree = "<group>"; };
+		D7D397E724879C0000FDB7BA /* BBOtherModelLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBOtherModelLayer.h; sourceTree = "<group>"; };
+		D7D397E824879C0000FDB7BA /* BBOtherModelLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBOtherModelLayer.m; sourceTree = "<group>"; };
+		D7D397EA24879C3900FDB7BA /* BBOtherDataKeys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBOtherDataKeys.h; sourceTree = "<group>"; };
+		D7D397EC2487A05E00FDB7BA /* BBDesignModelLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBDesignModelLayer.h; sourceTree = "<group>"; };
+		D7D397ED2487A05E00FDB7BA /* BBDesignModelLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBDesignModelLayer.m; sourceTree = "<group>"; };
+		D7D397EF2487A07000FDB7BA /* BBDesignDataKeys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBDesignDataKeys.h; sourceTree = "<group>"; };
 		E23D62EFF5E09B7FDF609EC5 /* Pods-BB-project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BB-project.release.xcconfig"; path = "Target Support Files/Pods-BB-project/Pods-BB-project.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -205,16 +220,15 @@
 		D7628B762485E5FF00F89AB5 /* BB-project */ = {
 			isa = PBXGroup;
 			children = (
-				D7628B772485E5FF00F89AB5 /* AppDelegate.h */,
-				D7628B782485E5FF00F89AB5 /* AppDelegate.m */,
 				D7628BAC2485E73000F89AB5 /* Base */,
 				D7628C172486725300F89AB5 /* APIManager */,
 				D7628BBD2485EA2900F89AB5 /* Main */,
 				D7D397A92487433200FDB7BA /* iOS基础 */,
 				D7D397AB2487438300FDB7BA /* 设计模式 */,
+				D7D397E124879B1400FDB7BA /* OC实现算法 */,
 				D7D397AA2487437A00FDB7BA /* 网络基础 */,
-				D7628BF22486445200F89AB5 /* 验证demo */,
 				D7628BCF2485EFF500F89AB5 /* 其他 */,
+				D7628BF22486445200F89AB5 /* 验证demo */,
 				D7628B832485E60500F89AB5 /* Assets.xcassets */,
 				D7628C012486470B00F89AB5 /* BBPrefixHeader.pch */,
 				D7628B802485E5FF00F89AB5 /* Main.storyboard */,
@@ -259,6 +273,8 @@
 		D7628BBD2485EA2900F89AB5 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				D7628B772485E5FF00F89AB5 /* AppDelegate.h */,
+				D7628B782485E5FF00F89AB5 /* AppDelegate.m */,
 				D7628BBE2485EA5100F89AB5 /* BBTabBarViewController.h */,
 				D7628BBF2485EA5100F89AB5 /* BBTabBarViewController.m */,
 			);
@@ -268,8 +284,8 @@
 		D7628BC42485EC2D00F89AB5 /* 内存管理 */ = {
 			isa = PBXGroup;
 			children = (
-				D7D397C52487744B00FDB7BA /* html */,
 				D7D397C424876BD700FDB7BA /* BBMemoryDataKeys.h */,
+				D7D397C52487744B00FDB7BA /* html */,
 				D7628BC52485EC5500F89AB5 /* Controller */,
 				D7628BC72485EC6700F89AB5 /* ModelLayer */,
 				D7628BC62485EC6000F89AB5 /* View */,
@@ -310,6 +326,7 @@
 		D7628BCC2485EFE100F89AB5 /* 多线程 */ = {
 			isa = PBXGroup;
 			children = (
+				D7D397E02487969C00FDB7BA /* BBMultithreadDataKeys.h */,
 				D7628BD02485F05900F89AB5 /* Controller */,
 				D7628BD32485F07400F89AB5 /* ModelLayer */,
 				D7628BD12485F06600F89AB5 /* View */,
@@ -340,6 +357,7 @@
 		D7628BCF2485EFF500F89AB5 /* 其他 */ = {
 			isa = PBXGroup;
 			children = (
+				D7D397EA24879C3900FDB7BA /* BBOtherDataKeys.h */,
 				D7628BE52485F0FD00F89AB5 /* Controller */,
 				D7628BE32485F0F300F89AB5 /* ModelLayer */,
 				D7628BE22485F0EF00F89AB5 /* View */,
@@ -366,6 +384,8 @@
 		D7628BD32485F07400F89AB5 /* ModelLayer */ = {
 			isa = PBXGroup;
 			children = (
+				D7D397DD2487967C00FDB7BA /* BBMultithreadModelLayer.h */,
+				D7D397DE2487967C00FDB7BA /* BBMultithreadModelLayer.m */,
 			);
 			path = ModelLayer;
 			sourceTree = "<group>";
@@ -426,6 +446,8 @@
 		D7628BE32485F0F300F89AB5 /* ModelLayer */ = {
 			isa = PBXGroup;
 			children = (
+				D7D397E724879C0000FDB7BA /* BBOtherModelLayer.h */,
+				D7D397E824879C0000FDB7BA /* BBOtherModelLayer.m */,
 			);
 			path = ModelLayer;
 			sourceTree = "<group>";
@@ -530,7 +552,9 @@
 		D7D397AB2487438300FDB7BA /* 设计模式 */ = {
 			isa = PBXGroup;
 			children = (
+				D7D397EF2487A07000FDB7BA /* BBDesignDataKeys.h */,
 				D7D397B8248746AA00FDB7BA /* Controller */,
+				D7D397EB2487A03900FDB7BA /* ModelLayer */,
 			);
 			path = "设计模式";
 			sourceTree = "<group>";
@@ -581,7 +605,7 @@
 		D7D397C52487744B00FDB7BA /* html */ = {
 			isa = PBXGroup;
 			children = (
-				D7D397CF2487840100FDB7BA /* property.html */,
+				D7D397CF2487840100FDB7BA /* propertyDesc.html */,
 				D7D397D42487886D00FDB7BA /* propertyCompare.html */,
 			);
 			path = html;
@@ -600,6 +624,40 @@
 				D7D397D22487852600FDB7BA /* BBDescCompareViewController.m */,
 			);
 			path = PropertyCol;
+			sourceTree = "<group>";
+		};
+		D7D397E124879B1400FDB7BA /* OC实现算法 */ = {
+			isa = PBXGroup;
+			children = (
+				D7D397E324879B3500FDB7BA /* ModelLayer */,
+				D7D397E224879B2E00FDB7BA /* Controller */,
+			);
+			path = "OC实现算法";
+			sourceTree = "<group>";
+		};
+		D7D397E224879B2E00FDB7BA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D7D397E424879B7C00FDB7BA /* BBOCAlgorithmViewController.h */,
+				D7D397E524879B7C00FDB7BA /* BBOCAlgorithmViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D7D397E324879B3500FDB7BA /* ModelLayer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ModelLayer;
+			sourceTree = "<group>";
+		};
+		D7D397EB2487A03900FDB7BA /* ModelLayer */ = {
+			isa = PBXGroup;
+			children = (
+				D7D397EC2487A05E00FDB7BA /* BBDesignModelLayer.h */,
+				D7D397ED2487A05E00FDB7BA /* BBDesignModelLayer.m */,
+			);
+			path = ModelLayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -707,7 +765,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7628C0F2486690F00F89AB5 /* LaunchScreen.storyboard in Resources */,
-				D7D397D02487840100FDB7BA /* property.html in Resources */,
+				D7D397D02487840100FDB7BA /* propertyDesc.html in Resources */,
 				D7D397D52487886D00FDB7BA /* propertyCompare.html in Resources */,
 				D7628B842485E60500F89AB5 /* Assets.xcassets in Resources */,
 				D7628B822485E5FF00F89AB5 /* Main.storyboard in Resources */,
@@ -763,7 +821,9 @@
 				D7628BB62485E8AE00F89AB5 /* BaseTabBarViewController.m in Sources */,
 				D7628C0424864D2700F89AB5 /* AtomicTestObject.m in Sources */,
 				D7628BDD2485F0D100F89AB5 /* BBRuntimeViewController.m in Sources */,
+				D7D397EE2487A05E00FDB7BA /* BBDesignModelLayer.m in Sources */,
 				D7D397CA2487809000FDB7BA /* BBDescViewController.m in Sources */,
+				D7D397E624879B7C00FDB7BA /* BBOCAlgorithmViewController.m in Sources */,
 				D7628BCB2485ED6900F89AB5 /* BBMemoryViewController.m in Sources */,
 				D7D397B72487467700FDB7BA /* BBDesignViewController.m in Sources */,
 				D7628BBC2485E8F200F89AB5 /* BaseViewController.m in Sources */,
@@ -777,6 +837,7 @@
 				D7628BEE24862D0C00F89AB5 /* BBHomeInfoView.m in Sources */,
 				D7628BC02485EA5100F89AB5 /* BBTabBarViewController.m in Sources */,
 				D7D397BC248746D900FDB7BA /* BBNetworkViewController.m in Sources */,
+				D7D397E924879C0000FDB7BA /* BBOtherModelLayer.m in Sources */,
 				D7D397DB24878E8200FDB7BA /* BBWeakDetailViewController.m in Sources */,
 				D7628BF72486451100F89AB5 /* AtomicModel.m in Sources */,
 				D7628B8A2485E60500F89AB5 /* main.m in Sources */,
@@ -785,6 +846,7 @@
 				D7D397B32487446000FDB7BA /* BBiOSBasicModelLayer.m in Sources */,
 				D7D397D824878E7500FDB7BA /* BBCopyDetailViewController.m in Sources */,
 				D7628C08248654D700F89AB5 /* AtomicViewController.m in Sources */,
+				D7D397DF2487967C00FDB7BA /* BBMultithreadModelLayer.m in Sources */,
 				D7628BFF248645BD00F89AB5 /* MainViewController.m in Sources */,
 				D7628BE82485F13300F89AB5 /* BBRunloopViewController.m in Sources */,
 			);

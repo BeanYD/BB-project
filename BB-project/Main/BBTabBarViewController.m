@@ -25,6 +25,7 @@
     
     NSArray *tabBarInfos = @[@{@"vcName" : @"BBiOSBasicViewController", @"title" : @"iOS基础", @"icon" : @"..."},
                              @{@"vcName" : @"BBDesignViewController", @"title" : @"设计模式", @"icon" : @"..."},
+                             @{@"vcName" : @"BBOCAlgorithmViewController", @"title" : @"OC实现算法", @"icon" : @"..."},
                              @{@"vcName" : @"BBNetworkViewController", @"title" : @"网络基础", @"icon" : @"..."},
                              @{@"vcName" : @"BBOtherViewController", @"title" : @"其他", @"icon" : @"..."}];
     

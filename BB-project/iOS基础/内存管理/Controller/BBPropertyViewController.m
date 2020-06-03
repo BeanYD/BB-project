@@ -8,7 +8,6 @@
 
 #import "BBPropertyViewController.h"
 #import "BBMemoryModelLayer.h"
-#import "BBMemoryDataKeys.h"
 
 @interface BBPropertyViewController ()<UITableViewDelegate, UITableViewDataSource>
 

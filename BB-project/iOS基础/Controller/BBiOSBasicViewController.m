@@ -8,11 +8,9 @@
 
 #import "BBiOSBasicViewController.h"
 #import "BBiOSBasicModelLayer.h"
-#import "BBiOSBasicDataKeys.h"
 
 @interface BBiOSBasicViewController ()<UITableViewDelegate, UITableViewDataSource, UISearchBarDelegate>
 
-@property (strong, nonatomic) UISearchBar *searchBar;
 @property (strong, nonatomic) UITableView *tableView;
 @property (strong, nonatomic) NSArray *dataSource;
 
@@ -25,7 +23,6 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 
-    [self.view addSubview:self.searchBar];
     [self.view addSubview:self.tableView];
     
     [self layoutSubviews];
@@ -35,12 +32,8 @@
 
 - (void)layoutSubviews {
     
-    [self.searchBar mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.top.right.equalTo(self.view);
-    }];
     [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.equalTo(self.searchBar.mas_bottom);
-        make.left.right.bottom.equalTo(self.view);
+        make.edges.equalTo(self.view);
     }];
 }
 
@@ -111,17 +104,6 @@
 #pragma mark - private methods
 
 #pragma mark - getters and setters
-- (UISearchBar *)searchBar {
-    if (!_searchBar) {
-        _searchBar = [[UISearchBar alloc] init];
-        _searchBar.delegate = self;
-        _searchBar.searchBarStyle = UISearchBarStyleMinimal;
-        _searchBar.placeholder = NSLocalizedString(@"ios基础相关内容", nil);
-    }
-    
-    return _searchBar;
-}
-
 - (UITableView *)tableView {
     if (!_tableView) {
         _tableView = [[UITableView alloc] init];

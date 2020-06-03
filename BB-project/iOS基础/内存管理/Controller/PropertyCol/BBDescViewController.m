@@ -25,7 +25,7 @@
     
     [self layoutSubviews];
     
-    NSString * path = [[NSBundle mainBundle] pathForResource:@"property" ofType:@"html"];
+    NSString * path = [[NSBundle mainBundle] pathForResource:@"propertyDesc" ofType:@"html"];
     // 创建URL
     NSURL * url = [NSURL fileURLWithPath:path];
     // 创建NSURLRequest

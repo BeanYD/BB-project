@@ -7,26 +7,122 @@
 //
 
 #import "BBOtherViewController.h"
+#import "BBOtherModelLayer.h"
 
-@interface BBOtherViewController ()
+@interface BBOtherViewController ()<UITableViewDelegate, UITableViewDataSource>
+
+@property (strong, nonatomic) UITableView *tableView;
+@property (strong, nonatomic) NSArray *dataSource;
 
 @end
 
 @implementation BBOtherViewController
 
+#pragma mark - life cycle
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+
+    [self.view addSubview:self.tableView];
+    
+    [self layoutSubviews];
+    
+    
+    
 }
 
-/*
-#pragma mark - Navigation
+- (void)layoutSubviews {
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+    [self.view addSubview:self.tableView];
+    [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.edges.equalTo(self.view);
+    }];
 }
-*/
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+}
+
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+}
+
+- (void)viewDidDisappear:(BOOL)animated {
+    [super viewDidDisappear:animated];
+}
+
+// subview的bounds变动的时候，才会调用
+- (void)viewWillLayoutSubviews {
+    
+}
+
+- (void)viewDidLayoutSubviews {
+    
+}
+
+- (void)dealloc {
+    
+}
+
+#pragma mark - UITableViewDataSource
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    return 1;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return self.dataSource.count;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"UITableViewCellId"];
+    if (!cell) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"UITableViewCellId"];
+    }
+    
+    NSDictionary *infoDict = self.dataSource[indexPath.row];
+    cell.textLabel.text = infoDict[kOtherTypeName];
+    
+    return cell;
+}
+
+#pragma mark - UITableViewDelegate
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
+    NSDictionary *infoDict = self.dataSource[indexPath.row];
+    UIViewController *vc = [NSClassFromString(infoDict[kOtherTargetColName]) new];
+    vc.title = infoDict[kOtherTypeName];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+#pragma mark - event response
+
+
+#pragma mark - private methods
+
+#pragma mark - getters and setters
+
+- (UITableView *)tableView {
+    if (!_tableView) {
+        _tableView = [[UITableView alloc] init];
+        _tableView.delegate = self;
+        _tableView.dataSource = self;
+        _tableView.tableFooterView = [UIView new];
+    }
+    
+    return _tableView;
+}
+
+- (NSArray *)dataSource {
+    if (!_dataSource) {
+        _dataSource = [BBOtherModelLayer getOtherTypeArray];
+    }
+    
+    return _dataSource;
+}
 
 @end
