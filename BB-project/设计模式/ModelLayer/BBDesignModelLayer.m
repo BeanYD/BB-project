@@ -20,7 +20,7 @@ NSString * const kDesignTargetColName = @"kDesignTargetColName";
             kDesignTargetColName : @"BBBasicRuleViewController",
         },
         @{
-            kDesignTypeName : @"24中设计模式",
+            kDesignTypeName : @"24种设计模式",
             kDesignTargetColName : @"BBDesignModelViewController",
         },
         @{

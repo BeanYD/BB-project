@@ -46,6 +46,8 @@
 		D7D397E624879B7C00FDB7BA /* BBOCAlgorithmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D397E524879B7C00FDB7BA /* BBOCAlgorithmViewController.m */; };
 		D7D397E924879C0000FDB7BA /* BBOtherModelLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D397E824879C0000FDB7BA /* BBOtherModelLayer.m */; };
 		D7D397EE2487A05E00FDB7BA /* BBDesignModelLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D397ED2487A05E00FDB7BA /* BBDesignModelLayer.m */; };
+		D7D397F22487A69D00FDB7BA /* BBOCAlgorithmModelLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D397F12487A69D00FDB7BA /* BBOCAlgorithmModelLayer.m */; };
+		D7D397F72487A83000FDB7BA /* BBNetworkModelLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D397F62487A83000FDB7BA /* BBNetworkModelLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -149,6 +151,12 @@
 		D7D397EC2487A05E00FDB7BA /* BBDesignModelLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBDesignModelLayer.h; sourceTree = "<group>"; };
 		D7D397ED2487A05E00FDB7BA /* BBDesignModelLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBDesignModelLayer.m; sourceTree = "<group>"; };
 		D7D397EF2487A07000FDB7BA /* BBDesignDataKeys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBDesignDataKeys.h; sourceTree = "<group>"; };
+		D7D397F02487A69D00FDB7BA /* BBOCAlgorithmModelLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBOCAlgorithmModelLayer.h; sourceTree = "<group>"; };
+		D7D397F12487A69D00FDB7BA /* BBOCAlgorithmModelLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBOCAlgorithmModelLayer.m; sourceTree = "<group>"; };
+		D7D397F32487A6AF00FDB7BA /* BBOCAlgorithmDataKeys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBOCAlgorithmDataKeys.h; sourceTree = "<group>"; };
+		D7D397F52487A83000FDB7BA /* BBNetworkModelLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBNetworkModelLayer.h; sourceTree = "<group>"; };
+		D7D397F62487A83000FDB7BA /* BBNetworkModelLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBNetworkModelLayer.m; sourceTree = "<group>"; };
+		D7D397F82487A84400FDB7BA /* BBNetworkDataKeys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBNetworkDataKeys.h; sourceTree = "<group>"; };
 		E23D62EFF5E09B7FDF609EC5 /* Pods-BB-project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BB-project.release.xcconfig"; path = "Target Support Files/Pods-BB-project/Pods-BB-project.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -544,7 +552,9 @@
 		D7D397AA2487437A00FDB7BA /* 网络基础 */ = {
 			isa = PBXGroup;
 			children = (
+				D7D397F82487A84400FDB7BA /* BBNetworkDataKeys.h */,
 				D7D397B9248746B800FDB7BA /* Controller */,
+				D7D397F42487A81400FDB7BA /* ModelLayer */,
 			);
 			path = "网络基础";
 			sourceTree = "<group>";
@@ -629,6 +639,7 @@
 		D7D397E124879B1400FDB7BA /* OC实现算法 */ = {
 			isa = PBXGroup;
 			children = (
+				D7D397F32487A6AF00FDB7BA /* BBOCAlgorithmDataKeys.h */,
 				D7D397E324879B3500FDB7BA /* ModelLayer */,
 				D7D397E224879B2E00FDB7BA /* Controller */,
 			);
@@ -647,6 +658,8 @@
 		D7D397E324879B3500FDB7BA /* ModelLayer */ = {
 			isa = PBXGroup;
 			children = (
+				D7D397F02487A69D00FDB7BA /* BBOCAlgorithmModelLayer.h */,
+				D7D397F12487A69D00FDB7BA /* BBOCAlgorithmModelLayer.m */,
 			);
 			path = ModelLayer;
 			sourceTree = "<group>";
@@ -656,6 +669,15 @@
 			children = (
 				D7D397EC2487A05E00FDB7BA /* BBDesignModelLayer.h */,
 				D7D397ED2487A05E00FDB7BA /* BBDesignModelLayer.m */,
+			);
+			path = ModelLayer;
+			sourceTree = "<group>";
+		};
+		D7D397F42487A81400FDB7BA /* ModelLayer */ = {
+			isa = PBXGroup;
+			children = (
+				D7D397F52487A83000FDB7BA /* BBNetworkModelLayer.h */,
+				D7D397F62487A83000FDB7BA /* BBNetworkModelLayer.m */,
 			);
 			path = ModelLayer;
 			sourceTree = "<group>";
@@ -819,6 +841,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7628BB62485E8AE00F89AB5 /* BaseTabBarViewController.m in Sources */,
+				D7D397F72487A83000FDB7BA /* BBNetworkModelLayer.m in Sources */,
 				D7628C0424864D2700F89AB5 /* AtomicTestObject.m in Sources */,
 				D7628BDD2485F0D100F89AB5 /* BBRuntimeViewController.m in Sources */,
 				D7D397EE2487A05E00FDB7BA /* BBDesignModelLayer.m in Sources */,
@@ -849,6 +872,7 @@
 				D7D397DF2487967C00FDB7BA /* BBMultithreadModelLayer.m in Sources */,
 				D7628BFF248645BD00F89AB5 /* MainViewController.m in Sources */,
 				D7628BE82485F13300F89AB5 /* BBRunloopViewController.m in Sources */,
+				D7D397F22487A69D00FDB7BA /* BBOCAlgorithmModelLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
