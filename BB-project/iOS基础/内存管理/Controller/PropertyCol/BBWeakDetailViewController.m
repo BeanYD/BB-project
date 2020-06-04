@@ -7,8 +7,11 @@
 //
 
 #import "BBWeakDetailViewController.h"
+#import <WebKit/WebKit.h>
 
 @interface BBWeakDetailViewController ()
+
+@property (strong, nonatomic) WKWebView *webView;
 
 @end
 
@@ -17,16 +20,33 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    [self.view addSubview:self.webView];
+    
+    [self layoutSubviews];
+    
+    NSString * path = [[NSBundle mainBundle] pathForResource:@"propertyWeak" ofType:@"html"];
+    // 创建URL
+    NSURL * url = [NSURL fileURLWithPath:path];
+    // 创建NSURLRequest
+    NSURLRequest * request = [NSURLRequest requestWithURL:url];
+    // 加载
+    [self.webView loadRequest:request];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)layoutSubviews {
+    [self.webView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.edges.equalTo(self.view);
+    }];
 }
-*/
+
+#pragma mark - getter and setter
+- (WKWebView *)webView {
+    if (!_webView) {
+        _webView = [[WKWebView alloc] init];
+    }
+    
+    return _webView;
+}
 
 @end

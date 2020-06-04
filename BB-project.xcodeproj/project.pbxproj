@@ -48,6 +48,9 @@
 		D7D397EE2487A05E00FDB7BA /* BBDesignModelLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D397ED2487A05E00FDB7BA /* BBDesignModelLayer.m */; };
 		D7D397F22487A69D00FDB7BA /* BBOCAlgorithmModelLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D397F12487A69D00FDB7BA /* BBOCAlgorithmModelLayer.m */; };
 		D7D397F72487A83000FDB7BA /* BBNetworkModelLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D397F62487A83000FDB7BA /* BBNetworkModelLayer.m */; };
+		D7D397FA24888D0A00FDB7BA /* propertyWeak.html in Resources */ = {isa = PBXBuildFile; fileRef = D7D397F924888D0A00FDB7BA /* propertyWeak.html */; };
+		D7D397FD24888DCF00FDB7BA /* weak-step2.png in Resources */ = {isa = PBXBuildFile; fileRef = D7D397FB24888DCE00FDB7BA /* weak-step2.png */; };
+		D7D397FE24888DCF00FDB7BA /* weak-step1.png in Resources */ = {isa = PBXBuildFile; fileRef = D7D397FC24888DCE00FDB7BA /* weak-step1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -157,6 +160,9 @@
 		D7D397F52487A83000FDB7BA /* BBNetworkModelLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBNetworkModelLayer.h; sourceTree = "<group>"; };
 		D7D397F62487A83000FDB7BA /* BBNetworkModelLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBNetworkModelLayer.m; sourceTree = "<group>"; };
 		D7D397F82487A84400FDB7BA /* BBNetworkDataKeys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBNetworkDataKeys.h; sourceTree = "<group>"; };
+		D7D397F924888D0A00FDB7BA /* propertyWeak.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = propertyWeak.html; sourceTree = "<group>"; };
+		D7D397FB24888DCE00FDB7BA /* weak-step2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weak-step2.png"; sourceTree = "<group>"; };
+		D7D397FC24888DCE00FDB7BA /* weak-step1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weak-step1.png"; sourceTree = "<group>"; };
 		E23D62EFF5E09B7FDF609EC5 /* Pods-BB-project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BB-project.release.xcconfig"; path = "Target Support Files/Pods-BB-project/Pods-BB-project.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -615,6 +621,9 @@
 		D7D397C52487744B00FDB7BA /* html */ = {
 			isa = PBXGroup;
 			children = (
+				D7D397FC24888DCE00FDB7BA /* weak-step1.png */,
+				D7D397FB24888DCE00FDB7BA /* weak-step2.png */,
+				D7D397F924888D0A00FDB7BA /* propertyWeak.html */,
 				D7D397CF2487840100FDB7BA /* propertyDesc.html */,
 				D7D397D42487886D00FDB7BA /* propertyCompare.html */,
 			);
@@ -789,8 +798,11 @@
 				D7628C0F2486690F00F89AB5 /* LaunchScreen.storyboard in Resources */,
 				D7D397D02487840100FDB7BA /* propertyDesc.html in Resources */,
 				D7D397D52487886D00FDB7BA /* propertyCompare.html in Resources */,
+				D7D397FE24888DCF00FDB7BA /* weak-step1.png in Resources */,
+				D7D397FA24888D0A00FDB7BA /* propertyWeak.html in Resources */,
 				D7628B842485E60500F89AB5 /* Assets.xcassets in Resources */,
 				D7628B822485E5FF00F89AB5 /* Main.storyboard in Resources */,
+				D7D397FD24888DCF00FDB7BA /* weak-step2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
