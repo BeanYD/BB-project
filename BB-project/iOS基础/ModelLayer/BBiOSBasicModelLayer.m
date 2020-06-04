@@ -20,6 +20,10 @@ NSString * const kiOSBasicTargetColName = @"kiOSBasicTargetColName";
             kiOSBasicTargetColName : @"BBMemoryViewController",
         },
         @{
+            kiOSBasicTypeName : @"对象的底层",
+            kiOSBasicTargetColName : @"BBClassViewController",
+        },
+        @{
             kiOSBasicTypeName : @"多线程",
             kiOSBasicTargetColName : @"BBMultithreadViewController",
         },
@@ -48,14 +52,6 @@ NSString * const kiOSBasicTargetColName = @"kiOSBasicTargetColName";
             kiOSBasicTargetColName : @"BBBlockViewController",
         },
         @{
-            kiOSBasicTypeName : @"本地化方案",
-            kiOSBasicTargetColName : @"BBDBPramViewController",
-        },
-        @{
-            kiOSBasicTypeName : @"iOS相关设计模式",
-            kiOSBasicTargetColName : @"BBDesignViewController",
-        },
-        @{
             kiOSBasicTypeName : @"视图 & 图像相关",
             kiOSBasicTargetColName : @"BBViewKnowViewController",
         },
@@ -68,6 +64,34 @@ NSString * const kiOSBasicTargetColName = @"kiOSBasicTargetColName";
             kiOSBasicTargetColName : @"BBPackageViewController",
         },
         @{
+            kiOSBasicTypeName : @"本地化方案",
+            kiOSBasicTargetColName : @"BBDBPramViewController",
+        },
+        @{
+            kiOSBasicTypeName : @"第三方框架学习",
+            kiOSBasicTargetColName : @"BBThirdFounViewController",
+        },
+        @{
+            kiOSBasicTypeName : @"iOS相关设计模式",
+            kiOSBasicTargetColName : @"BBDesignViewController",
+        },
+        @{
+            kiOSBasicTypeName : @"音视频/多媒体",
+            kiOSBasicTargetColName : @"BBMediaViewController",
+        },
+        @{
+            kiOSBasicTypeName : @"动画",
+            kiOSBasicTargetColName : @"BBAnimationViewController",
+        },
+        @{
+            kiOSBasicTypeName : @"绘图",
+            kiOSBasicTargetColName : @"BBDrawViewController",
+        },
+        @{
+            kiOSBasicTypeName : @"JS交互",
+            kiOSBasicTargetColName : @"BBJSMutuallyViewController",
+        },
+        @{
             kiOSBasicTypeName : @"历史版本重要特性",
             kiOSBasicTargetColName : @"BBHisVersionViewController",
         },
@@ -76,8 +100,8 @@ NSString * const kiOSBasicTargetColName = @"kiOSBasicTargetColName";
             kiOSBasicTargetColName : @"BBFoundationViewController",
         },
         @{
-            kiOSBasicTypeName : @"第三方框架学习",
-            kiOSBasicTargetColName : @"BBThirdFounViewController",
+            kiOSBasicTypeName : @"App之间的通信",
+            kiOSBasicTargetColName : @"BBSignComtViewController",
         },
     ];
 }

@@ -51,6 +51,13 @@
 		D7D397FA24888D0A00FDB7BA /* propertyWeak.html in Resources */ = {isa = PBXBuildFile; fileRef = D7D397F924888D0A00FDB7BA /* propertyWeak.html */; };
 		D7D397FD24888DCF00FDB7BA /* weak-step2.png in Resources */ = {isa = PBXBuildFile; fileRef = D7D397FB24888DCE00FDB7BA /* weak-step2.png */; };
 		D7D397FE24888DCF00FDB7BA /* weak-step1.png in Resources */ = {isa = PBXBuildFile; fileRef = D7D397FC24888DCE00FDB7BA /* weak-step1.png */; };
+		D7D398012488BB7800FDB7BA /* BBRuntimeModelLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D398002488BB7800FDB7BA /* BBRuntimeModelLayer.m */; };
+		D7D398092488C0C300FDB7BA /* BBClassModelLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D398082488C0C300FDB7BA /* BBClassModelLayer.m */; };
+		D7D3980C2488C0D200FDB7BA /* BBClassNatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3980B2488C0D200FDB7BA /* BBClassNatureViewController.m */; };
+		D7D3980F2488C7F200FDB7BA /* classInstance.html in Resources */ = {isa = PBXBuildFile; fileRef = D7D3980E2488C7F200FDB7BA /* classInstance.html */; };
+		D7D398112488D32A00FDB7BA /* classInstance.png in Resources */ = {isa = PBXBuildFile; fileRef = D7D398102488D32A00FDB7BA /* classInstance.png */; };
+		D7D398142488D5CB00FDB7BA /* BBClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D398132488D5CB00FDB7BA /* BBClassViewController.m */; };
+		D7D398172488D66900FDB7BA /* BBOCClassTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D398162488D66900FDB7BA /* BBOCClassTypeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -163,6 +170,20 @@
 		D7D397F924888D0A00FDB7BA /* propertyWeak.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = propertyWeak.html; sourceTree = "<group>"; };
 		D7D397FB24888DCE00FDB7BA /* weak-step2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weak-step2.png"; sourceTree = "<group>"; };
 		D7D397FC24888DCE00FDB7BA /* weak-step1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weak-step1.png"; sourceTree = "<group>"; };
+		D7D397FF2488BB7800FDB7BA /* BBRuntimeModelLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBRuntimeModelLayer.h; sourceTree = "<group>"; };
+		D7D398002488BB7800FDB7BA /* BBRuntimeModelLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBRuntimeModelLayer.m; sourceTree = "<group>"; };
+		D7D398022488BB9300FDB7BA /* BBRuntimeDataKeys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBRuntimeDataKeys.h; sourceTree = "<group>"; };
+		D7D398062488C0B200FDB7BA /* BBClassDataKeys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBClassDataKeys.h; sourceTree = "<group>"; };
+		D7D398072488C0C300FDB7BA /* BBClassModelLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBClassModelLayer.h; sourceTree = "<group>"; };
+		D7D398082488C0C300FDB7BA /* BBClassModelLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBClassModelLayer.m; sourceTree = "<group>"; };
+		D7D3980A2488C0D200FDB7BA /* BBClassNatureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBClassNatureViewController.h; sourceTree = "<group>"; };
+		D7D3980B2488C0D200FDB7BA /* BBClassNatureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBClassNatureViewController.m; sourceTree = "<group>"; };
+		D7D3980E2488C7F200FDB7BA /* classInstance.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = classInstance.html; sourceTree = "<group>"; };
+		D7D398102488D32A00FDB7BA /* classInstance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = classInstance.png; sourceTree = "<group>"; };
+		D7D398122488D5CB00FDB7BA /* BBClassViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBClassViewController.h; sourceTree = "<group>"; };
+		D7D398132488D5CB00FDB7BA /* BBClassViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBClassViewController.m; sourceTree = "<group>"; };
+		D7D398152488D66900FDB7BA /* BBOCClassTypeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBOCClassTypeViewController.h; sourceTree = "<group>"; };
+		D7D398162488D66900FDB7BA /* BBOCClassTypeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBOCClassTypeViewController.m; sourceTree = "<group>"; };
 		E23D62EFF5E09B7FDF609EC5 /* Pods-BB-project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BB-project.release.xcconfig"; path = "Target Support Files/Pods-BB-project/Pods-BB-project.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -351,6 +372,7 @@
 		D7628BCD2485EFE900F89AB5 /* runtime */ = {
 			isa = PBXGroup;
 			children = (
+				D7D398022488BB9300FDB7BA /* BBRuntimeDataKeys.h */,
 				D7628BD72485F0A500F89AB5 /* Controller */,
 				D7628BD52485F09900F89AB5 /* ModelLayer */,
 				D7628BD42485F09000F89AB5 /* View */,
@@ -414,6 +436,8 @@
 		D7628BD52485F09900F89AB5 /* ModelLayer */ = {
 			isa = PBXGroup;
 			children = (
+				D7D397FF2488BB7800FDB7BA /* BBRuntimeModelLayer.h */,
+				D7D398002488BB7800FDB7BA /* BBRuntimeModelLayer.m */,
 			);
 			path = ModelLayer;
 			sourceTree = "<group>";
@@ -548,6 +572,7 @@
 				D7D397BD24874B0C00FDB7BA /* View */,
 				D7D397AD2487441500FDB7BA /* ModelLayer */,
 				D7628BC42485EC2D00F89AB5 /* 内存管理 */,
+				D7D398032488C07E00FDB7BA /* 对象 */,
 				D7628BCC2485EFE100F89AB5 /* 多线程 */,
 				D7628BCE2485EFEF00F89AB5 /* runloop */,
 				D7628BCD2485EFE900F89AB5 /* runtime */,
@@ -691,6 +716,48 @@
 			path = ModelLayer;
 			sourceTree = "<group>";
 		};
+		D7D398032488C07E00FDB7BA /* 对象 */ = {
+			isa = PBXGroup;
+			children = (
+				D7D3980D2488C31200FDB7BA /* html */,
+				D7D398062488C0B200FDB7BA /* BBClassDataKeys.h */,
+				D7D398042488C08E00FDB7BA /* Controller */,
+				D7D398052488C09B00FDB7BA /* ModelLayer */,
+			);
+			path = "对象";
+			sourceTree = "<group>";
+		};
+		D7D398042488C08E00FDB7BA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D7D398122488D5CB00FDB7BA /* BBClassViewController.h */,
+				D7D398132488D5CB00FDB7BA /* BBClassViewController.m */,
+				D7D3980A2488C0D200FDB7BA /* BBClassNatureViewController.h */,
+				D7D3980B2488C0D200FDB7BA /* BBClassNatureViewController.m */,
+				D7D398152488D66900FDB7BA /* BBOCClassTypeViewController.h */,
+				D7D398162488D66900FDB7BA /* BBOCClassTypeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D7D398052488C09B00FDB7BA /* ModelLayer */ = {
+			isa = PBXGroup;
+			children = (
+				D7D398072488C0C300FDB7BA /* BBClassModelLayer.h */,
+				D7D398082488C0C300FDB7BA /* BBClassModelLayer.m */,
+			);
+			path = ModelLayer;
+			sourceTree = "<group>";
+		};
+		D7D3980D2488C31200FDB7BA /* html */ = {
+			isa = PBXGroup;
+			children = (
+				D7D3980E2488C7F200FDB7BA /* classInstance.html */,
+				D7D398102488D32A00FDB7BA /* classInstance.png */,
+			);
+			path = html;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -802,7 +869,9 @@
 				D7D397FA24888D0A00FDB7BA /* propertyWeak.html in Resources */,
 				D7628B842485E60500F89AB5 /* Assets.xcassets in Resources */,
 				D7628B822485E5FF00F89AB5 /* Main.storyboard in Resources */,
+				D7D398112488D32A00FDB7BA /* classInstance.png in Resources */,
 				D7D397FD24888DCF00FDB7BA /* weak-step2.png in Resources */,
+				D7D3980F2488C7F200FDB7BA /* classInstance.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -860,8 +929,10 @@
 				D7D397CA2487809000FDB7BA /* BBDescViewController.m in Sources */,
 				D7D397E624879B7C00FDB7BA /* BBOCAlgorithmViewController.m in Sources */,
 				D7628BCB2485ED6900F89AB5 /* BBMemoryViewController.m in Sources */,
+				D7D398142488D5CB00FDB7BA /* BBClassViewController.m in Sources */,
 				D7D397B72487467700FDB7BA /* BBDesignViewController.m in Sources */,
 				D7628BBC2485E8F200F89AB5 /* BaseViewController.m in Sources */,
+				D7D398012488BB7800FDB7BA /* BBRuntimeModelLayer.m in Sources */,
 				D7628BDA2485F0BE00F89AB5 /* BBMultithreadViewController.m in Sources */,
 				D7D397B02487444600FDB7BA /* BBiOSBasicViewController.m in Sources */,
 				D7628B792485E5FF00F89AB5 /* AppDelegate.m in Sources */,
@@ -871,12 +942,15 @@
 				D7D397A72487385600FDB7BA /* BBMemoryModelLayer.m in Sources */,
 				D7628BEE24862D0C00F89AB5 /* BBHomeInfoView.m in Sources */,
 				D7628BC02485EA5100F89AB5 /* BBTabBarViewController.m in Sources */,
+				D7D398172488D66900FDB7BA /* BBOCClassTypeViewController.m in Sources */,
 				D7D397BC248746D900FDB7BA /* BBNetworkViewController.m in Sources */,
+				D7D398092488C0C300FDB7BA /* BBClassModelLayer.m in Sources */,
 				D7D397E924879C0000FDB7BA /* BBOtherModelLayer.m in Sources */,
 				D7D397DB24878E8200FDB7BA /* BBWeakDetailViewController.m in Sources */,
 				D7628BF72486451100F89AB5 /* AtomicModel.m in Sources */,
 				D7628B8A2485E60500F89AB5 /* main.m in Sources */,
 				D7628C1A2486727300F89AB5 /* BBAPIManager.m in Sources */,
+				D7D3980C2488C0D200FDB7BA /* BBClassNatureViewController.m in Sources */,
 				D7628BEB2485F14300F89AB5 /* BBOtherViewController.m in Sources */,
 				D7D397B32487446000FDB7BA /* BBiOSBasicModelLayer.m in Sources */,
 				D7D397D824878E7500FDB7BA /* BBCopyDetailViewController.m in Sources */,

@@ -12,6 +12,8 @@
 extern NSString * const kMultithreadTypeName;
 extern NSString * const kMultithreadTargetColName;
 
-
+extern NSString * const kMultrdGcdTypeName;
+extern NSString * const kMultrdGcdTargetColName;
+extern NSString * const kMultrdGcdCategoryList;
 
 #endif /* BBMultithreadDataKeys_h */

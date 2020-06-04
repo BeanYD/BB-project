@@ -1,0 +1,144 @@
+<!--
+ * @Author: Bean.Ding
+ * @Date: 2020-06-04 13:51:11
+ * @LastEditTime: 2020-06-04 15:06:22
+ * @LastEditors: Bean.Ding
+-->
+<!DOCTYPE html>
+<html style="width: 90%; margin-left: 5%;">
+    <head>
+        <meta charset="utf-8" />
+        <title>实例对象、类对象、元类对象</title>
+        <style>
+            .code-div {
+                margin: 6px 10px;
+                padding: 10px;
+                border: 1px solid gray;
+            }
+            .draw-div {
+                width: 50%;
+            }
+            .div-yel {
+                padding: 10px 30px;
+                align-content: center;
+                background-color: yellow;
+            }
+            .div-bottom {
+                padding: 10px;
+                background-color: blueviolet;
+            }
+            .div-blue {
+                padding: 10px;
+                background-color: cyan;
+                border-bottom: 1px solid gray;
+            }
+            .OC-img {
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>NSObject的底层实现</h2>
+        <div class="code-div">
+            <code>
+                @interface NSObject {
+                <blockquote>Class isa;</blockquote>
+                }<br />
+                @end
+            </code>
+        </div>
+        <p>编译成结构体：</p>
+        <div class="code-div">
+            <code>
+                struct NSObject_IMPL {
+                <blockquote>Class isa;</blockquote>
+                }
+            </code>
+        </div>
+        <div class="code-div">
+            <code>
+                typedef struct objc_class *Class;
+            </code>
+        </div>
+        <div class="code-div">
+            <code>
+                NSObject *obj = [[NSObject alloc] init];
+            </code>
+        </div>
+        <h2>OC对象的本质</h2>
+        <div class="code-div">
+            <code>
+                @interface Student : NSObject {
+                <blockquote>
+                    @public <br />
+                    int _no; <br />
+                    int _ago;
+                </blockquote>
+                }<br />
+                @end
+            </code>
+        </div>
+        <p>编译成结构体：</p>
+        <div class="code-div">
+            <code>
+                struct Student_IMPL {
+                <blockquote>
+                    Class isa; <br />
+                    int _no; <br />
+                    int _age;
+                </blockquote>
+                }
+            </code>
+        </div>
+        <p>举例：</p>
+        <div class="code-div">
+            <code>
+                Student *stu = [[Student alloc] init]; <br />
+                stu->_no = 4; <br />
+                stu->_age = 5;
+            </code>
+        </div>
+        <div class="draw-div">
+            <div class="div-yel">
+                <p>sutdent对象</p>
+                <p>地址：stu = 0x100400110</p>
+            </div>
+            <div class="div-bottom">
+                <div class="div-blue">
+                    <p>isa</p>
+                    <p>地址：0x100400110</p>
+                </div>
+                <div class="div-blue">
+                    <p>_no = 4</p>
+                    <p>地址：0x100400118</p>
+                </div>
+                <div class="div-blue">
+                    <p>_age = 5</p>
+                    <p>地址：0x10040011C</p>
+                </div>
+            </div>
+        </div>
+        <div class="code-div">
+            <code>
+                struct Student_IMPL *stu2 = (__bridge struct Student_IMP *)stu; <br />
+                NSLog(@"%d, %d", stu2->_no, stu2->_age);
+            </code>
+        </div>
+        <p>思考：一个Person对象、一个Student对象占用多少内存空间?</p>
+        <img class="OC-img" src="./classInstance.png">
+        <p>创建一个实例对象，至少需要多少内存？</p>
+        <div class="code-div">
+            <code>
+                #import &lt;objc/runtime.h&gt;
+                class_getInstanceSize([NSObject class]);
+            </code>
+        </div>
+        <p>创建一个实例对象，实际上分配了多少内存？</p>
+        <div class="code-div">
+            <code>
+                #import &lt;malloc/malloc.h&gt;
+                malloc_size((__bridge const void *)obj);
+            </code>
+        </div>
+    </body>
+</html>

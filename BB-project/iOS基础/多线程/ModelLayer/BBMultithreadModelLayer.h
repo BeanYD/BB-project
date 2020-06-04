@@ -15,6 +15,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (NSArray *)getMultithreadTypeArray;
 
++ (NSArray *)getGCDTypeArray;
+
 @end
 
 NS_ASSUME_NONNULL_END

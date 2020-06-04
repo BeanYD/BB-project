@@ -40,7 +40,11 @@ NSString * const kPropertyTargetColName = @"kPropertyTargetColName";
         @{
             kMemoryTypeName : @"MRC->ARC",
             kMemoryTargetColName : @"BBMRCToARCViewController",
-        }
+        },
+        @{
+            kMemoryTypeName : @"分类和拓展",
+            kMemoryTargetColName : @"BBCateAndExtViewController",
+        },
     ];
 }
 
