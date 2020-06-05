@@ -1,0 +1,96 @@
+<!--
+ * @Author: Bean.Ding
+ * @Date: 2020-06-05 11:00:24
+ * @LastEditTime: 2020-06-05 13:27:27
+ * @LastEditors: Bean.Ding
+-->
+<!DOCTYPE html>
+<html style="width: 90%; margin-left: 5%;">
+    <head>
+        <meta charset="utf-8" />
+        <title>isa指针</title>
+        <style>
+            .code-div {
+                margin: 10px 0px;
+                padding: 5px 10px;
+                border: 1px solid gray;
+            }
+            h2 {
+                margin: 60px 0px;
+            }
+            .isa-point-1,
+            .isa-point-2,
+            .isa-point-3,
+            .isa-point-4 {
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <h2><code>isa</code>指针的指向问题</h2>
+        <img class="isa-point-1" src="./isaPoint-1.png" />
+        <ul>
+            <li>
+                <code>instance</code> 的 <code>isa</code> 指向 <code>class</code>
+                <ul>
+                    <li>当调用对象方法时，通过 <code>instance</code> 的 <code>isa</code> 找到 <code>class</code>，最后找到对象方法的实现进行调用</li>
+                </ul>
+            </li>
+            <li>
+                <code>class</code> 的 <code>isa</code> 指向 <code>meta-class</code>
+                <ul>
+                    <li>当调用类方法时，通过 <code>class</code> 的 <code>isa</code> 找到 <code>meta-class</code>，最后找到类方法的实现进行调用</li>
+                </ul>
+            </li>
+        </ul>
+        <h2><code>class</code>对象的 <code>superclass</code>指针</h2>
+        <img class="isa-point-2" src="./isaPoint-2.png" />
+        <lu>
+            <li>
+                当 <code>Student</code> 的 <code>instance</code> 对象要调用 <code>Person</code> 的对象方法时，会先通过 <code>isa</code> 找到 <code>Student</code> 的 <code>class</code>，然后通过
+                <code>suoerclass</code> 找到 <code>Person</code> 的 <code>class</code>，最后找到对象方法的实现进行调用
+            </li>
+        </lu>
+        <h2><code>meta-class</code> 对象的 <code>superclass</code> 指针</h2>
+        <img class="isa-point-3" src="./isaPoint-3.png" />
+        <lu>
+            <li>
+                当 <code>Student</code> 的 <code>class</code> 要调用 <code>Person</code> 的类方法时，会先通过 <code>isa</code> 找到 <code>Student</code> 的 <code>meta-class</code>，然后通过
+                <code>superclass</code> 找到 <code>Person</code> 的 <code>meta-class</code>，最后找到类方法的实现进行调用
+            </li>
+        </lu>
+        <h2><code>isa</code>、<code>superclass</code> 总结</h2>
+        <ul>
+            <li><code>instance</code> 的 <code>isa</code> 指向 <code>class</code></li>
+            <li><code>class</code> 的 <code>isa</code> 指向 <code>meta-class</code></li>
+            <li><code>meta-class</code> 的 <code>isa</code> 指向基类的 <code>meta-class</code></li>
+            <li>
+                <code>class</code> 的 <code>superclass</code> 指向父类的 <code>class</code>
+                <ul type="square">
+                    <li>
+                        如果没有父类，<code>suoerclass</code>指针为nil
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <code>meta-class</code> 的 <code>superclass</code> 指向父类的 <code>meta-class</code>
+                <ul type="square">
+                    <li>基类的 <code>meta-class</code> 的 <code>superclass</code> 指向基类的 <code>class</code></li>
+                </ul>
+            </li>
+            <li>
+                <code>instance</code> 调用对象方法的轨迹
+                <ul type="square">
+                    <li><code>isa</code> 找到 <code>class</code>，方法不存在，就通过 <code>superclass</code> 找到父类</li>
+                </ul>
+            </li>
+            <li>
+                <code>class</code> 调用类方法的轨迹
+                <ul type="square">
+                    <li><code>isa</code> 找 <code>meta-class</code>，方法不存在，就通过 <code>superclass</code> 找父类</li>
+                </ul>
+            </li>
+        </ul>
+        <img class="isa-point-4" src="./isaPoint-4.png">
+    </body>
+</html>

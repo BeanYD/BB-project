@@ -1,0 +1,138 @@
+<!--
+ * @Author: Bean.Ding
+ * @Date: 2020-06-05 10:18:03
+ * @LastEditTime: 2020-06-05 13:00:10
+ * @LastEditors: Bean.Ding
+-->
+<!DOCTYPE html>
+<html style="width: 90%; margin-left: 5%;">
+    <head>
+        <meta charset="utf-8" />
+        <title>OC对象的分类</title>
+        <style>
+            .code-div {
+                margin: 10px 0px;
+                padding: 5px 10px;
+                border: 1px solid gray;
+            }
+
+            .img-type-1,
+            .img-type-2 {
+                width: 20%;
+            }
+
+            h2 {
+                margin: 60px 0px;
+            }
+        </style>
+    </head>
+    <body>
+        <h2><code>instance</code> 对象（实例对象）</h2>
+        <ul>
+            <li>
+                <p><code>instance</code> 对象就是通过类 <code>alloc</code> 出来的对象，每次调用 <code>alloc</code> 都会产生新的 <code>instance</code> 对象</p>
+                <div class="code-div">
+                    <code>
+                        NSObject *object1 = [[NSObject alloc] init]; <br />
+                        NSObject *object2 = [[NSObject alloc] init];
+                    </code>
+                </div>
+            </li>
+            <li>
+                <p><code>object1</code>、<code>object2</code> 是 <code>NSObject</code> 的 <code>instance</code> 对象（实例对象）</p>
+            </li>
+            <li>
+                <p>它们是不同的两个对象，分别占据着两块不同的内存</p>
+            </li>
+            <li>
+                <p><code>instance</code> 对象在内存中存储的信息包括</p>
+                <ul type="square">
+                    <li><code>isa</code> 指针</li>
+                    <li>其他成员变量</li>
+                </ul>
+            </li>
+        </ul>
+        <div class="code-div">
+            <code>
+                @interface Person : NSObject {
+                <blockquote>
+                    @public <br />
+                    int _age;
+                </blockquote>
+                } <br />
+                @end
+            </code>
+        </div>
+        <div class="code-div">
+            <code>
+                Person *p1 = [[Person alloc] init];<br />
+                p1->_age = 3;
+                <br />
+                Person *p2 = [[Person alloc] init];<br />
+                p2->_age = 4;
+            </code>
+        </div>
+        <h2><code>class</code> 对象（类对象）</h2>
+        <div class="code-div">
+            <code>
+                NSObject *object1 = [[NSObject alloc] init]; <br />
+                NSObject *object2 = [[NSObject alloc] init]; <br />
+                Class objectClass1 = [object1 class]; <br />
+                Class objectClass2 = [object2 class]; <br />
+                Class objectClass3 = [NSObject class]; <br />
+                // Runtime API <br />
+                Class objectClass4 = object_getClass(object1); <br />
+                Class objectClass5 = object_getClass(object2);
+            </code>
+        </div>
+        <ul>
+            <li><code>objectClass1</code> ~ <code>objectClass5</code> 都是 <code>NSObject</code> 的 <code>class</code> 对象（类对象）</li>
+            <li>他们是同一个对象。每个类在内存中有且只有一个 <code>class</code> 对象</li>
+            <li>
+                <code>class</code> 对象在内存中存储的信息主要包括
+                <ul type="square">
+                    <li><code>isa</code> 指针</li>
+                    <li><code>superclass</code> 指针</li>
+                    <li>类的属性信息（ <code>@property</code> ）、类的对象方法信息（ <code>instance method</code> ）</li>
+                    <li>类的协议信息（ <code>protocol</code> ）、类的成员变量信息（ <code>ivar</code> ）</li>
+                    <li>...</li>
+                </ul>
+            </li>
+        </ul>
+        <img class="img-type-1" src="./classType-1.png" />
+        <h2><code>meta-class</code> 对象（元类对象）</h2>
+        <div class="code-div">
+            <code>
+                Class objectMetaClass = object_getClass([NSObject class]); // Runtime API
+            </code>
+        </div>
+        <ul>
+            <li><code>objectMetaClass</code> 是 <code>NSObject</code> 的 <code>meta-class</code> 对象（元类对象）</li>
+            <li>每个类在内存中有且只有一个 <code>meta-class</code> 对象</li>
+            <li>
+                <code>meta-class</code> 对象和 <code>class</code> 对象的内存结构是一样的，但是用途不一样，在内存中存储的信息主要包括
+                <ul type="square">
+                    <li><code>isa</code> 指针</li>
+                    <li><code>superclass</code> 指针</li>
+                    <li>类的类方法信息（ <code>class method</code> ）</li>
+                    <li>...</li>
+                </ul>
+            </li>
+        </ul>
+        <img class="img-type-2" src="./classType-2.png" />
+        <h2>注意事项：</h2>
+        <p>以下代码获取的 <code>objectClass</code> 是 <code>class</code> 对象，不是 <code>meta-class</code> 对象</p>
+        <div class="code-div">
+            <code>
+                Class objectClass = [[NSObject class] class];
+            </code>
+        </div>
+        <p>查看 <code>Class是</code> 否为 <code>meta-class</code></p>
+        <div class="code-div">
+            <code>
+                #import &lt;objc/runtime.h&gt; <br />
+                BOOL result = class_isMetaClass([NSObject class]);
+            </code>
+        </div>
+    </body>
+</html>

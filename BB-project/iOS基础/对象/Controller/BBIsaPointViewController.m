@@ -1,20 +1,20 @@
 //
-//  BBOCClassTypeViewController.m
+//  BBIsaPointViewController.m
 //  BB-project
 //
-//  Created by dingbinbin on 2020/6/4.
+//  Created by dingbinbin on 2020/6/5.
 //  Copyright © 2020 dingbinbin. All rights reserved.
 //
 
-#import "BBOCClassTypeViewController.h"
+#import "BBIsaPointViewController.h"
 #import <WebKit/WebKit.h>
 
-@interface BBOCClassTypeViewController ()
+@interface BBIsaPointViewController ()
 @property (strong, nonatomic) WKWebView *webView;
 
 @end
 
-@implementation BBOCClassTypeViewController
+@implementation BBIsaPointViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -24,7 +24,7 @@
     
     [self layoutSubviews];
     
-    NSString * path = [[NSBundle mainBundle] pathForResource:@"classType" ofType:@"html"];
+    NSString * path = [[NSBundle mainBundle] pathForResource:@"isaPoint" ofType:@"html"];
     // 创建URL
     NSURL * url = [NSURL fileURLWithPath:path];
     // 创建NSURLRequest

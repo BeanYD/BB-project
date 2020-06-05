@@ -1,7 +1,7 @@
 <!--
  * @Author: Bean.Ding
  * @Date: 2020-06-04 13:51:11
- * @LastEditTime: 2020-06-04 15:06:22
+ * @LastEditTime: 2020-06-05 13:31:25
  * @LastEditors: Bean.Ding
 -->
 <!DOCTYPE html>
@@ -38,7 +38,7 @@
         </style>
     </head>
     <body>
-        <h2>NSObject的底层实现</h2>
+        <h2><code>NSObject</code> 的底层实现</h2>
         <div class="code-div">
             <code>
                 @interface NSObject {
@@ -100,7 +100,7 @@
         </div>
         <div class="draw-div">
             <div class="div-yel">
-                <p>sutdent对象</p>
+                <p><code>sutdent</code> 对象</p>
                 <p>地址：stu = 0x100400110</p>
             </div>
             <div class="div-bottom">
@@ -124,7 +124,7 @@
                 NSLog(@"%d, %d", stu2->_no, stu2->_age);
             </code>
         </div>
-        <p>思考：一个Person对象、一个Student对象占用多少内存空间?</p>
+        <p>思考：一个 <code>Person</code> 对象、一个 <code>Student</code> 对象占用多少内存空间?</p>
         <img class="OC-img" src="./classInstance.png">
         <p>创建一个实例对象，至少需要多少内存？</p>
         <div class="code-div">

@@ -58,6 +58,16 @@
 		D7D398112488D32A00FDB7BA /* classInstance.png in Resources */ = {isa = PBXBuildFile; fileRef = D7D398102488D32A00FDB7BA /* classInstance.png */; };
 		D7D398142488D5CB00FDB7BA /* BBClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D398132488D5CB00FDB7BA /* BBClassViewController.m */; };
 		D7D398172488D66900FDB7BA /* BBOCClassTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D398162488D66900FDB7BA /* BBOCClassTypeViewController.m */; };
+		D7D398222488DA1E00FDB7BA /* BBKVOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D398212488DA1E00FDB7BA /* BBKVOViewController.m */; };
+		D7D398252489E7C700FDB7BA /* classType-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D7D398232489E7C700FDB7BA /* classType-1.png */; };
+		D7D398262489E7C700FDB7BA /* classType.html in Resources */ = {isa = PBXBuildFile; fileRef = D7D398242489E7C700FDB7BA /* classType.html */; };
+		D7D398282489EA2B00FDB7BA /* classType-2.png in Resources */ = {isa = PBXBuildFile; fileRef = D7D398272489EA2A00FDB7BA /* classType-2.png */; };
+		D7D3982B2489ECA500FDB7BA /* BBIsaPointViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3982A2489ECA500FDB7BA /* BBIsaPointViewController.m */; };
+		D7D3982D2489ECD500FDB7BA /* isaPoint.html in Resources */ = {isa = PBXBuildFile; fileRef = D7D3982C2489ECD500FDB7BA /* isaPoint.html */; };
+		D7D39832248A0FC800FDB7BA /* isaPoint-3.png in Resources */ = {isa = PBXBuildFile; fileRef = D7D3982E248A0FC800FDB7BA /* isaPoint-3.png */; };
+		D7D39833248A0FC800FDB7BA /* isaPoint-4.png in Resources */ = {isa = PBXBuildFile; fileRef = D7D3982F248A0FC800FDB7BA /* isaPoint-4.png */; };
+		D7D39834248A0FC800FDB7BA /* isaPoint-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D7D39830248A0FC800FDB7BA /* isaPoint-1.png */; };
+		D7D39835248A0FC800FDB7BA /* isaPoint-2.png in Resources */ = {isa = PBXBuildFile; fileRef = D7D39831248A0FC800FDB7BA /* isaPoint-2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -184,6 +194,18 @@
 		D7D398132488D5CB00FDB7BA /* BBClassViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBClassViewController.m; sourceTree = "<group>"; };
 		D7D398152488D66900FDB7BA /* BBOCClassTypeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBOCClassTypeViewController.h; sourceTree = "<group>"; };
 		D7D398162488D66900FDB7BA /* BBOCClassTypeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBOCClassTypeViewController.m; sourceTree = "<group>"; };
+		D7D398202488DA1E00FDB7BA /* BBKVOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBKVOViewController.h; sourceTree = "<group>"; };
+		D7D398212488DA1E00FDB7BA /* BBKVOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBKVOViewController.m; sourceTree = "<group>"; };
+		D7D398232489E7C700FDB7BA /* classType-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "classType-1.png"; sourceTree = "<group>"; };
+		D7D398242489E7C700FDB7BA /* classType.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = classType.html; sourceTree = "<group>"; };
+		D7D398272489EA2A00FDB7BA /* classType-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "classType-2.png"; sourceTree = "<group>"; };
+		D7D398292489ECA500FDB7BA /* BBIsaPointViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBIsaPointViewController.h; sourceTree = "<group>"; };
+		D7D3982A2489ECA500FDB7BA /* BBIsaPointViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBIsaPointViewController.m; sourceTree = "<group>"; };
+		D7D3982C2489ECD500FDB7BA /* isaPoint.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = isaPoint.html; sourceTree = "<group>"; };
+		D7D3982E248A0FC800FDB7BA /* isaPoint-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "isaPoint-3.png"; sourceTree = "<group>"; };
+		D7D3982F248A0FC800FDB7BA /* isaPoint-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "isaPoint-4.png"; sourceTree = "<group>"; };
+		D7D39830248A0FC800FDB7BA /* isaPoint-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "isaPoint-1.png"; sourceTree = "<group>"; };
+		D7D39831248A0FC800FDB7BA /* isaPoint-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "isaPoint-2.png"; sourceTree = "<group>"; };
 		E23D62EFF5E09B7FDF609EC5 /* Pods-BB-project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BB-project.release.xcconfig"; path = "Target Support Files/Pods-BB-project/Pods-BB-project.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -576,6 +598,12 @@
 				D7628BCC2485EFE100F89AB5 /* 多线程 */,
 				D7628BCE2485EFEF00F89AB5 /* runloop */,
 				D7628BCD2485EFE900F89AB5 /* runtime */,
+				D7D398182488D8D700FDB7BA /* KVO */,
+				D7D398192488D8E100FDB7BA /* KVC */,
+				D7D3981A2488D8E800FDB7BA /* Notification */,
+				D7D3981B2488D8F200FDB7BA /* Block */,
+				D7D3981C2488D8F800FDB7BA /* 视图、图像 */,
+				D7D3981D2488D90C00FDB7BA /* 性能优化 */,
 			);
 			path = "iOS基础";
 			sourceTree = "<group>";
@@ -736,6 +764,8 @@
 				D7D3980B2488C0D200FDB7BA /* BBClassNatureViewController.m */,
 				D7D398152488D66900FDB7BA /* BBOCClassTypeViewController.h */,
 				D7D398162488D66900FDB7BA /* BBOCClassTypeViewController.m */,
+				D7D398292489ECA500FDB7BA /* BBIsaPointViewController.h */,
+				D7D3982A2489ECA500FDB7BA /* BBIsaPointViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -752,10 +782,78 @@
 		D7D3980D2488C31200FDB7BA /* html */ = {
 			isa = PBXGroup;
 			children = (
+				D7D39830248A0FC800FDB7BA /* isaPoint-1.png */,
+				D7D39831248A0FC800FDB7BA /* isaPoint-2.png */,
+				D7D3982E248A0FC800FDB7BA /* isaPoint-3.png */,
+				D7D3982F248A0FC800FDB7BA /* isaPoint-4.png */,
+				D7D3982C2489ECD500FDB7BA /* isaPoint.html */,
+				D7D398272489EA2A00FDB7BA /* classType-2.png */,
+				D7D398232489E7C700FDB7BA /* classType-1.png */,
+				D7D398242489E7C700FDB7BA /* classType.html */,
 				D7D3980E2488C7F200FDB7BA /* classInstance.html */,
 				D7D398102488D32A00FDB7BA /* classInstance.png */,
 			);
 			path = html;
+			sourceTree = "<group>";
+		};
+		D7D398182488D8D700FDB7BA /* KVO */ = {
+			isa = PBXGroup;
+			children = (
+				D7D3981F2488D94600FDB7BA /* Controller */,
+				D7D3981E2488D93A00FDB7BA /* ModelLayer */,
+			);
+			path = KVO;
+			sourceTree = "<group>";
+		};
+		D7D398192488D8E100FDB7BA /* KVC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = KVC;
+			sourceTree = "<group>";
+		};
+		D7D3981A2488D8E800FDB7BA /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		D7D3981B2488D8F200FDB7BA /* Block */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Block;
+			sourceTree = "<group>";
+		};
+		D7D3981C2488D8F800FDB7BA /* 视图、图像 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "视图、图像";
+			sourceTree = "<group>";
+		};
+		D7D3981D2488D90C00FDB7BA /* 性能优化 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "性能优化";
+			sourceTree = "<group>";
+		};
+		D7D3981E2488D93A00FDB7BA /* ModelLayer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ModelLayer;
+			sourceTree = "<group>";
+		};
+		D7D3981F2488D94600FDB7BA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D7D398202488DA1E00FDB7BA /* BBKVOViewController.h */,
+				D7D398212488DA1E00FDB7BA /* BBKVOViewController.m */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -863,15 +961,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7628C0F2486690F00F89AB5 /* LaunchScreen.storyboard in Resources */,
+				D7D398262489E7C700FDB7BA /* classType.html in Resources */,
 				D7D397D02487840100FDB7BA /* propertyDesc.html in Resources */,
+				D7D39832248A0FC800FDB7BA /* isaPoint-3.png in Resources */,
 				D7D397D52487886D00FDB7BA /* propertyCompare.html in Resources */,
+				D7D398252489E7C700FDB7BA /* classType-1.png in Resources */,
 				D7D397FE24888DCF00FDB7BA /* weak-step1.png in Resources */,
+				D7D39835248A0FC800FDB7BA /* isaPoint-2.png in Resources */,
 				D7D397FA24888D0A00FDB7BA /* propertyWeak.html in Resources */,
 				D7628B842485E60500F89AB5 /* Assets.xcassets in Resources */,
+				D7D39833248A0FC800FDB7BA /* isaPoint-4.png in Resources */,
 				D7628B822485E5FF00F89AB5 /* Main.storyboard in Resources */,
+				D7D39834248A0FC800FDB7BA /* isaPoint-1.png in Resources */,
 				D7D398112488D32A00FDB7BA /* classInstance.png in Resources */,
+				D7D398282489EA2B00FDB7BA /* classType-2.png in Resources */,
 				D7D397FD24888DCF00FDB7BA /* weak-step2.png in Resources */,
 				D7D3980F2488C7F200FDB7BA /* classInstance.html in Resources */,
+				D7D3982D2489ECD500FDB7BA /* isaPoint.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -928,6 +1034,7 @@
 				D7D397EE2487A05E00FDB7BA /* BBDesignModelLayer.m in Sources */,
 				D7D397CA2487809000FDB7BA /* BBDescViewController.m in Sources */,
 				D7D397E624879B7C00FDB7BA /* BBOCAlgorithmViewController.m in Sources */,
+				D7D3982B2489ECA500FDB7BA /* BBIsaPointViewController.m in Sources */,
 				D7628BCB2485ED6900F89AB5 /* BBMemoryViewController.m in Sources */,
 				D7D398142488D5CB00FDB7BA /* BBClassViewController.m in Sources */,
 				D7D397B72487467700FDB7BA /* BBDesignViewController.m in Sources */,
@@ -947,6 +1054,7 @@
 				D7D398092488C0C300FDB7BA /* BBClassModelLayer.m in Sources */,
 				D7D397E924879C0000FDB7BA /* BBOtherModelLayer.m in Sources */,
 				D7D397DB24878E8200FDB7BA /* BBWeakDetailViewController.m in Sources */,
+				D7D398222488DA1E00FDB7BA /* BBKVOViewController.m in Sources */,
 				D7628BF72486451100F89AB5 /* AtomicModel.m in Sources */,
 				D7628B8A2485E60500F89AB5 /* main.m in Sources */,
 				D7628C1A2486727300F89AB5 /* BBAPIManager.m in Sources */,

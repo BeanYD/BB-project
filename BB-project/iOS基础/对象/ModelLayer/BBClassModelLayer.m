@@ -23,6 +23,10 @@ NSString * const kClassTargetColName = @"kClassTargetColName";
             kClassTypeName : @"OC对象的分类",
             kClassTargetColName : @"BBOCClassTypeViewController",
         },
+        @{
+            kClassTypeName : @"isa指针",
+            kClassTargetColName : @"BBIsaPointViewController",
+        }
     ];
 }
 
