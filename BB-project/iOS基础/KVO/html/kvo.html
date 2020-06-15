@@ -1,0 +1,59 @@
+<!--
+ * @Author: Bean.Ding
+ * @Date: 2020-06-08 10:17:01
+ * @LastEditTime: 2020-06-08 10:56:19
+ * @LastEditors: Bean.Ding
+-->
+<!DOCTYPE html>
+<html style="width: 90%; margin-left: 5%;">
+    <head>
+        <meta charset="utf-8" />
+        <title>KVO的内部实现</title>
+        <style>
+            .kvo-image-1,
+            .kvo-image-2,
+            .kvo-image-3 {
+                width: 100%;
+                margin: 10px 0px;
+            }
+
+            .code-div {
+                margin: 6px 10px;
+                padding: 10px;
+                border: 1px solid gray;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>KVO简介</h2>
+        <ul>
+            <li><code>KVO</code>的全称是 <code>Key-Value Observing</code>，俗称"键值监听"，可以用于监听某个对象属性值得改变</li>
+        </ul>
+        <img class="kvo-image-1" src="./kvo-image-1.png" />
+        <h2><code>KVO</code> 未监听对象和监听对象的结构对比</h2>
+        <h3>未使用 <code>KVO</code> 监听的对象</h3>
+        <img class="kvo-image-2" src="./kvo-image-2.png" />
+        <h3>使用 <code>KVO</code> 监听的对象</h3>
+        <img class="kvo-image-3" src="./kvo-image-3.png" />
+        <h2>查看 <code>_NSSet*AndNotify</code> 的存在</h2>
+        <img class="kvo-image-4" src="./kvo-image-4.png" />
+        <h2><code>_NSSet*ValueAndNotify</code> 的内部实现</h2>
+        <div class="code-div">
+            <code>
+                [self willChangeValueForKey:@"age"]; <br />
+                // 原来的 <code>setter</code> 实现 <br />
+                [self didChangeValueForKey:@"age"];
+            </code>
+        </div>
+        <ul>
+            <li>调用 <code>willChangeValueForKey:</code></li>
+            <li>调用原来的 <code>setter</code> 实现</li>
+            <li>
+                调用 <code>didChangeValueForKey:</code>
+                <ul type="square">
+                    <li><code>didChangeValueForKey:</code> 内部会调用 <code>observer</code> 的 <code>observeValueForKeyPath:ofObject:change:context:</code> 方法</li>
+                </ul>
+            </li>
+        </ul>
+    </body>
+</html>

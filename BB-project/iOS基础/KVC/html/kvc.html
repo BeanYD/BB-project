@@ -1,0 +1,44 @@
+<!--
+ * @Author: Bean.Ding
+ * @Date: 2020-06-08 10:55:13
+ * @LastEditTime: 2020-06-08 11:11:03
+ * @LastEditors: Bean.Ding
+-->
+<!DOCTYPE html>
+<html style="width: 90%; margin-left: 5%;">
+    <head>
+        <meta charset="utf-8" />
+        <title>kvc的内部实现</title>
+        <style>
+            .border-ul-div {
+                margin: 6px 10px;
+                padding: 10px;
+                border: 1px solid gray;
+            }
+            .kvc-image-1,
+            .kvc-image-2 {
+                width: 100%;
+                margin: 10px 0px;
+            }
+        </style>
+    </head>
+    <body>
+        <h2><code>KVC</code> 简介</h2>
+        <ul class="border-ul-div">
+            <li><code>KVC</code> 的全称是 <code>Key-Value Coding</code>，俗称“键值编码”，可以通过一个 <code>key</code> 来访问某个属性</li>
+            <li>
+                常见的API有
+                <ul type="square">
+                    <li><code>- (void)setValue:(id)value forKeyPath:(NSString *)keyPath;</code></li>
+                    <li><code>- (void)setValue:(id)value forKey:(NSString *)key;</code></li>
+                    <li><code>- (id)valueForKeyPath:(NSString *)keyPath;</code></li>
+                    <li><code>- (id)valueForKey:(NSString *)key;</code></li>
+                </ul>
+            </li>
+        </ul>
+        <h2><code>setValue:forKey:</code> 的原理</h2>
+        <img class="kvc-image-1" src="./kvc-image-1.png" />
+        <h2><code>valueForKey:</code>的原理</h2>
+        <img class="kvc-image-2" src="./kvc-image-2.png" />
+    </body>
+</html>

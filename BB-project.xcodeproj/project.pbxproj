@@ -68,6 +68,21 @@
 		D7D39833248A0FC800FDB7BA /* isaPoint-4.png in Resources */ = {isa = PBXBuildFile; fileRef = D7D3982F248A0FC800FDB7BA /* isaPoint-4.png */; };
 		D7D39834248A0FC800FDB7BA /* isaPoint-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D7D39830248A0FC800FDB7BA /* isaPoint-1.png */; };
 		D7D39835248A0FC800FDB7BA /* isaPoint-2.png in Resources */ = {isa = PBXBuildFile; fileRef = D7D39831248A0FC800FDB7BA /* isaPoint-2.png */; };
+		D7D3983B248DDA9600FDB7BA /* kvo-image-3.png in Resources */ = {isa = PBXBuildFile; fileRef = D7D39837248DDA9600FDB7BA /* kvo-image-3.png */; };
+		D7D3983C248DDA9600FDB7BA /* kvo-image-2.png in Resources */ = {isa = PBXBuildFile; fileRef = D7D39838248DDA9600FDB7BA /* kvo-image-2.png */; };
+		D7D3983D248DDA9600FDB7BA /* kvo-image-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D7D39839248DDA9600FDB7BA /* kvo-image-1.png */; };
+		D7D3983E248DDA9600FDB7BA /* kvo.html in Resources */ = {isa = PBXBuildFile; fileRef = D7D3983A248DDA9600FDB7BA /* kvo.html */; };
+		D7D39840248DDF2B00FDB7BA /* kvo-image-4.png in Resources */ = {isa = PBXBuildFile; fileRef = D7D3983F248DDF2B00FDB7BA /* kvo-image-4.png */; };
+		D7D39848248DDFD900FDB7BA /* BBKVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D39847248DDFD900FDB7BA /* BBKVCViewController.m */; };
+		D7D3984C248DE3A300FDB7BA /* kvc.html in Resources */ = {isa = PBXBuildFile; fileRef = D7D39849248DE3A300FDB7BA /* kvc.html */; };
+		D7D3984D248DE3A300FDB7BA /* kvc-image-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D7D3984A248DE3A300FDB7BA /* kvc-image-1.png */; };
+		D7D3984E248DE3A300FDB7BA /* kvc-image-2.png in Resources */ = {isa = PBXBuildFile; fileRef = D7D3984B248DE3A300FDB7BA /* kvc-image-2.png */; };
+		D7D39851248DE4A400FDB7BA /* BBAssociateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D39850248DE4A400FDB7BA /* BBAssociateViewController.m */; };
+		D7D39854248DE4B000FDB7BA /* BBCopyTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D39853248DE4B000FDB7BA /* BBCopyTypeViewController.m */; };
+		D7D39857248DE4C000FDB7BA /* BBAutoRelPoolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D39856248DE4C000FDB7BA /* BBAutoRelPoolViewController.m */; };
+		D7D3985A248DE4CD00FDB7BA /* BBMemoryLeakViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D39859248DE4CD00FDB7BA /* BBMemoryLeakViewController.m */; };
+		D7D3985D248DE4DA00FDB7BA /* BBMRCToARCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3985C248DE4DA00FDB7BA /* BBMRCToARCViewController.m */; };
+		D7D39860248DE4E400FDB7BA /* BBCateAndExtViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D3985F248DE4E400FDB7BA /* BBCateAndExtViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -206,6 +221,28 @@
 		D7D3982F248A0FC800FDB7BA /* isaPoint-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "isaPoint-4.png"; sourceTree = "<group>"; };
 		D7D39830248A0FC800FDB7BA /* isaPoint-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "isaPoint-1.png"; sourceTree = "<group>"; };
 		D7D39831248A0FC800FDB7BA /* isaPoint-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "isaPoint-2.png"; sourceTree = "<group>"; };
+		D7D39837248DDA9600FDB7BA /* kvo-image-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kvo-image-3.png"; sourceTree = "<group>"; };
+		D7D39838248DDA9600FDB7BA /* kvo-image-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kvo-image-2.png"; sourceTree = "<group>"; };
+		D7D39839248DDA9600FDB7BA /* kvo-image-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kvo-image-1.png"; sourceTree = "<group>"; };
+		D7D3983A248DDA9600FDB7BA /* kvo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = kvo.html; sourceTree = "<group>"; };
+		D7D3983F248DDF2B00FDB7BA /* kvo-image-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kvo-image-4.png"; sourceTree = "<group>"; };
+		D7D39846248DDFD900FDB7BA /* BBKVCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBKVCViewController.h; sourceTree = "<group>"; };
+		D7D39847248DDFD900FDB7BA /* BBKVCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBKVCViewController.m; sourceTree = "<group>"; };
+		D7D39849248DE3A300FDB7BA /* kvc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = kvc.html; sourceTree = "<group>"; };
+		D7D3984A248DE3A300FDB7BA /* kvc-image-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kvc-image-1.png"; sourceTree = "<group>"; };
+		D7D3984B248DE3A300FDB7BA /* kvc-image-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kvc-image-2.png"; sourceTree = "<group>"; };
+		D7D3984F248DE4A400FDB7BA /* BBAssociateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBAssociateViewController.h; sourceTree = "<group>"; };
+		D7D39850248DE4A400FDB7BA /* BBAssociateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBAssociateViewController.m; sourceTree = "<group>"; };
+		D7D39852248DE4B000FDB7BA /* BBCopyTypeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBCopyTypeViewController.h; sourceTree = "<group>"; };
+		D7D39853248DE4B000FDB7BA /* BBCopyTypeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBCopyTypeViewController.m; sourceTree = "<group>"; };
+		D7D39855248DE4C000FDB7BA /* BBAutoRelPoolViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBAutoRelPoolViewController.h; sourceTree = "<group>"; };
+		D7D39856248DE4C000FDB7BA /* BBAutoRelPoolViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBAutoRelPoolViewController.m; sourceTree = "<group>"; };
+		D7D39858248DE4CD00FDB7BA /* BBMemoryLeakViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBMemoryLeakViewController.h; sourceTree = "<group>"; };
+		D7D39859248DE4CD00FDB7BA /* BBMemoryLeakViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBMemoryLeakViewController.m; sourceTree = "<group>"; };
+		D7D3985B248DE4DA00FDB7BA /* BBMRCToARCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBMRCToARCViewController.h; sourceTree = "<group>"; };
+		D7D3985C248DE4DA00FDB7BA /* BBMRCToARCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBMRCToARCViewController.m; sourceTree = "<group>"; };
+		D7D3985E248DE4E400FDB7BA /* BBCateAndExtViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBCateAndExtViewController.h; sourceTree = "<group>"; };
+		D7D3985F248DE4E400FDB7BA /* BBCateAndExtViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBCateAndExtViewController.m; sourceTree = "<group>"; };
 		E23D62EFF5E09B7FDF609EC5 /* Pods-BB-project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BB-project.release.xcconfig"; path = "Target Support Files/Pods-BB-project/Pods-BB-project.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -357,6 +394,18 @@
 				D7628BCA2485ED6900F89AB5 /* BBMemoryViewController.m */,
 				D7D397C1248769AE00FDB7BA /* BBPropertyViewController.h */,
 				D7D397C2248769AE00FDB7BA /* BBPropertyViewController.m */,
+				D7D3984F248DE4A400FDB7BA /* BBAssociateViewController.h */,
+				D7D39850248DE4A400FDB7BA /* BBAssociateViewController.m */,
+				D7D39852248DE4B000FDB7BA /* BBCopyTypeViewController.h */,
+				D7D39853248DE4B000FDB7BA /* BBCopyTypeViewController.m */,
+				D7D39855248DE4C000FDB7BA /* BBAutoRelPoolViewController.h */,
+				D7D39856248DE4C000FDB7BA /* BBAutoRelPoolViewController.m */,
+				D7D39858248DE4CD00FDB7BA /* BBMemoryLeakViewController.h */,
+				D7D39859248DE4CD00FDB7BA /* BBMemoryLeakViewController.m */,
+				D7D3985B248DE4DA00FDB7BA /* BBMRCToARCViewController.h */,
+				D7D3985C248DE4DA00FDB7BA /* BBMRCToARCViewController.m */,
+				D7D3985E248DE4E400FDB7BA /* BBCateAndExtViewController.h */,
+				D7D3985F248DE4E400FDB7BA /* BBCateAndExtViewController.m */,
 				D7D397DC2487903800FDB7BA /* PropertyCol */,
 			);
 			path = Controller;
@@ -799,8 +848,8 @@
 		D7D398182488D8D700FDB7BA /* KVO */ = {
 			isa = PBXGroup;
 			children = (
+				D7D39836248DD6D800FDB7BA /* html */,
 				D7D3981F2488D94600FDB7BA /* Controller */,
-				D7D3981E2488D93A00FDB7BA /* ModelLayer */,
 			);
 			path = KVO;
 			sourceTree = "<group>";
@@ -808,6 +857,8 @@
 		D7D398192488D8E100FDB7BA /* KVC */ = {
 			isa = PBXGroup;
 			children = (
+				D7D39842248DDFB000FDB7BA /* html */,
+				D7D39841248DDFA500FDB7BA /* Controller */,
 			);
 			path = KVC;
 			sourceTree = "<group>";
@@ -840,13 +891,6 @@
 			path = "性能优化";
 			sourceTree = "<group>";
 		};
-		D7D3981E2488D93A00FDB7BA /* ModelLayer */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ModelLayer;
-			sourceTree = "<group>";
-		};
 		D7D3981F2488D94600FDB7BA /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -854,6 +898,37 @@
 				D7D398212488DA1E00FDB7BA /* BBKVOViewController.m */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		D7D39836248DD6D800FDB7BA /* html */ = {
+			isa = PBXGroup;
+			children = (
+				D7D3983F248DDF2B00FDB7BA /* kvo-image-4.png */,
+				D7D39839248DDA9600FDB7BA /* kvo-image-1.png */,
+				D7D39838248DDA9600FDB7BA /* kvo-image-2.png */,
+				D7D39837248DDA9600FDB7BA /* kvo-image-3.png */,
+				D7D3983A248DDA9600FDB7BA /* kvo.html */,
+			);
+			path = html;
+			sourceTree = "<group>";
+		};
+		D7D39841248DDFA500FDB7BA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D7D39846248DDFD900FDB7BA /* BBKVCViewController.h */,
+				D7D39847248DDFD900FDB7BA /* BBKVCViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D7D39842248DDFB000FDB7BA /* html */ = {
+			isa = PBXGroup;
+			children = (
+				D7D3984A248DE3A300FDB7BA /* kvc-image-1.png */,
+				D7D3984B248DE3A300FDB7BA /* kvc-image-2.png */,
+				D7D39849248DE3A300FDB7BA /* kvc.html */,
+			);
+			path = html;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -961,23 +1036,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7628C0F2486690F00F89AB5 /* LaunchScreen.storyboard in Resources */,
+				D7D39840248DDF2B00FDB7BA /* kvo-image-4.png in Resources */,
 				D7D398262489E7C700FDB7BA /* classType.html in Resources */,
 				D7D397D02487840100FDB7BA /* propertyDesc.html in Resources */,
 				D7D39832248A0FC800FDB7BA /* isaPoint-3.png in Resources */,
 				D7D397D52487886D00FDB7BA /* propertyCompare.html in Resources */,
+				D7D3984D248DE3A300FDB7BA /* kvc-image-1.png in Resources */,
 				D7D398252489E7C700FDB7BA /* classType-1.png in Resources */,
 				D7D397FE24888DCF00FDB7BA /* weak-step1.png in Resources */,
 				D7D39835248A0FC800FDB7BA /* isaPoint-2.png in Resources */,
 				D7D397FA24888D0A00FDB7BA /* propertyWeak.html in Resources */,
+				D7D3984E248DE3A300FDB7BA /* kvc-image-2.png in Resources */,
+				D7D3983D248DDA9600FDB7BA /* kvo-image-1.png in Resources */,
+				D7D3983C248DDA9600FDB7BA /* kvo-image-2.png in Resources */,
 				D7628B842485E60500F89AB5 /* Assets.xcassets in Resources */,
 				D7D39833248A0FC800FDB7BA /* isaPoint-4.png in Resources */,
+				D7D3983E248DDA9600FDB7BA /* kvo.html in Resources */,
 				D7628B822485E5FF00F89AB5 /* Main.storyboard in Resources */,
 				D7D39834248A0FC800FDB7BA /* isaPoint-1.png in Resources */,
 				D7D398112488D32A00FDB7BA /* classInstance.png in Resources */,
 				D7D398282489EA2B00FDB7BA /* classType-2.png in Resources */,
 				D7D397FD24888DCF00FDB7BA /* weak-step2.png in Resources */,
+				D7D3983B248DDA9600FDB7BA /* kvo-image-3.png in Resources */,
 				D7D3980F2488C7F200FDB7BA /* classInstance.html in Resources */,
 				D7D3982D2489ECD500FDB7BA /* isaPoint.html in Resources */,
+				D7D3984C248DE3A300FDB7BA /* kvc.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1029,6 +1112,7 @@
 			files = (
 				D7628BB62485E8AE00F89AB5 /* BaseTabBarViewController.m in Sources */,
 				D7D397F72487A83000FDB7BA /* BBNetworkModelLayer.m in Sources */,
+				D7D39848248DDFD900FDB7BA /* BBKVCViewController.m in Sources */,
 				D7628C0424864D2700F89AB5 /* AtomicTestObject.m in Sources */,
 				D7628BDD2485F0D100F89AB5 /* BBRuntimeViewController.m in Sources */,
 				D7D397EE2487A05E00FDB7BA /* BBDesignModelLayer.m in Sources */,
@@ -1038,9 +1122,11 @@
 				D7628BCB2485ED6900F89AB5 /* BBMemoryViewController.m in Sources */,
 				D7D398142488D5CB00FDB7BA /* BBClassViewController.m in Sources */,
 				D7D397B72487467700FDB7BA /* BBDesignViewController.m in Sources */,
+				D7D39860248DE4E400FDB7BA /* BBCateAndExtViewController.m in Sources */,
 				D7628BBC2485E8F200F89AB5 /* BaseViewController.m in Sources */,
 				D7D398012488BB7800FDB7BA /* BBRuntimeModelLayer.m in Sources */,
 				D7628BDA2485F0BE00F89AB5 /* BBMultithreadViewController.m in Sources */,
+				D7D3985D248DE4DA00FDB7BA /* BBMRCToARCViewController.m in Sources */,
 				D7D397B02487444600FDB7BA /* BBiOSBasicViewController.m in Sources */,
 				D7628B792485E5FF00F89AB5 /* AppDelegate.m in Sources */,
 				D7D397C3248769AE00FDB7BA /* BBPropertyViewController.m in Sources */,
@@ -1055,12 +1141,16 @@
 				D7D397E924879C0000FDB7BA /* BBOtherModelLayer.m in Sources */,
 				D7D397DB24878E8200FDB7BA /* BBWeakDetailViewController.m in Sources */,
 				D7D398222488DA1E00FDB7BA /* BBKVOViewController.m in Sources */,
+				D7D39857248DE4C000FDB7BA /* BBAutoRelPoolViewController.m in Sources */,
+				D7D39851248DE4A400FDB7BA /* BBAssociateViewController.m in Sources */,
 				D7628BF72486451100F89AB5 /* AtomicModel.m in Sources */,
+				D7D39854248DE4B000FDB7BA /* BBCopyTypeViewController.m in Sources */,
 				D7628B8A2485E60500F89AB5 /* main.m in Sources */,
 				D7628C1A2486727300F89AB5 /* BBAPIManager.m in Sources */,
 				D7D3980C2488C0D200FDB7BA /* BBClassNatureViewController.m in Sources */,
 				D7628BEB2485F14300F89AB5 /* BBOtherViewController.m in Sources */,
 				D7D397B32487446000FDB7BA /* BBiOSBasicModelLayer.m in Sources */,
+				D7D3985A248DE4CD00FDB7BA /* BBMemoryLeakViewController.m in Sources */,
 				D7D397D824878E7500FDB7BA /* BBCopyDetailViewController.m in Sources */,
 				D7628C08248654D700F89AB5 /* AtomicViewController.m in Sources */,
 				D7D397DF2487967C00FDB7BA /* BBMultithreadModelLayer.m in Sources */,

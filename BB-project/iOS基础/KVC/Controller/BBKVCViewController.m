@@ -1,21 +1,21 @@
 //
-//  BBKVOViewController.m
+//  BBKVCViewController.m
 //  BB-project
 //
-//  Created by dingbinbin on 2020/6/4.
+//  Created by dingbinbin on 2020/6/8.
 //  Copyright © 2020 dingbinbin. All rights reserved.
 //
 
-#import "BBKVOViewController.h"
+#import "BBKVCViewController.h"
 #import <WebKit/WebKit.h>
 
-@interface BBKVOViewController ()
+@interface BBKVCViewController ()
 
 @property (strong, nonatomic) WKWebView *webView;
 
 @end
 
-@implementation BBKVOViewController
+@implementation BBKVCViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -25,7 +25,7 @@
     
     [self layoutSubviews];
     
-    NSString * path = [[NSBundle mainBundle] pathForResource:@"kvo" ofType:@"html"];
+    NSString * path = [[NSBundle mainBundle] pathForResource:@"kvc" ofType:@"html"];
     // 创建URL
     NSURL * url = [NSURL fileURLWithPath:path];
     // 创建NSURLRequest
