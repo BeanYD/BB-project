@@ -57,7 +57,7 @@ NSString * const kiOSBasicTargetColName = @"kiOSBasicTargetColName";
         },
         @{
             kiOSBasicTypeName : @"性能优化",
-            kiOSBasicTargetColName : @"BBXingNengViewController",
+            kiOSBasicTargetColName : @"BBPerformOptiViewController",
         },
         @{
             kiOSBasicTypeName : @"打包 & 证书相关",

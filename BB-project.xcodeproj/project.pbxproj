@@ -30,6 +30,12 @@
 		D7628C08248654D700F89AB5 /* AtomicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7628C07248654D700F89AB5 /* AtomicViewController.m */; };
 		D7628C0F2486690F00F89AB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7628C0E2486690F00F89AB5 /* LaunchScreen.storyboard */; };
 		D7628C1A2486727300F89AB5 /* BBAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D7628C192486727300F89AB5 /* BBAPIManager.m */; };
+		D7962DFF24A9B8BF00E78FF4 /* BBPerformOptiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7962DFE24A9B8BF00E78FF4 /* BBPerformOptiViewController.m */; };
+		D7962E0324A9B9C300E78FF4 /* BBPerformOptiModelLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D7962E0224A9B9C300E78FF4 /* BBPerformOptiModelLayer.m */; };
+		D7962E0924A9BD7400E78FF4 /* BBPerformOptiStartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7962E0824A9BD7400E78FF4 /* BBPerformOptiStartViewController.m */; };
+		D7962E0C24A9BD8000E78FF4 /* BBPerformOptiCatonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7962E0B24A9BD8000E78FF4 /* BBPerformOptiCatonViewController.m */; };
+		D7962E0F24A9BDBB00E78FF4 /* BBPerformOptiPowerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7962E0E24A9BDBB00E78FF4 /* BBPerformOptiPowerViewController.m */; };
+		D7962E1224A9BDCA00E78FF4 /* BBPerformOptiNetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7962E1124A9BDCA00E78FF4 /* BBPerformOptiNetViewController.m */; };
 		D7D397A72487385600FDB7BA /* BBMemoryModelLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D397A62487385600FDB7BA /* BBMemoryModelLayer.m */; };
 		D7D397B02487444600FDB7BA /* BBiOSBasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D397AF2487444600FDB7BA /* BBiOSBasicViewController.m */; };
 		D7D397B32487446000FDB7BA /* BBiOSBasicModelLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D397B22487446000FDB7BA /* BBiOSBasicModelLayer.m */; };
@@ -151,6 +157,19 @@
 		D7628C182486727300F89AB5 /* BBAPIManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBAPIManager.h; sourceTree = "<group>"; };
 		D7628C192486727300F89AB5 /* BBAPIManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBAPIManager.m; sourceTree = "<group>"; };
 		D7628C1C24867D8E00F89AB5 /* BBReformerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBReformerProtocol.h; sourceTree = "<group>"; };
+		D7962DFD24A9B8BF00E78FF4 /* BBPerformOptiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBPerformOptiViewController.h; sourceTree = "<group>"; };
+		D7962DFE24A9B8BF00E78FF4 /* BBPerformOptiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBPerformOptiViewController.m; sourceTree = "<group>"; };
+		D7962E0024A9B96A00E78FF4 /* BBPerformOptiDataKeys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBPerformOptiDataKeys.h; sourceTree = "<group>"; };
+		D7962E0124A9B9C300E78FF4 /* BBPerformOptiModelLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBPerformOptiModelLayer.h; sourceTree = "<group>"; };
+		D7962E0224A9B9C300E78FF4 /* BBPerformOptiModelLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBPerformOptiModelLayer.m; sourceTree = "<group>"; };
+		D7962E0724A9BD7400E78FF4 /* BBPerformOptiStartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBPerformOptiStartViewController.h; sourceTree = "<group>"; };
+		D7962E0824A9BD7400E78FF4 /* BBPerformOptiStartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBPerformOptiStartViewController.m; sourceTree = "<group>"; };
+		D7962E0A24A9BD8000E78FF4 /* BBPerformOptiCatonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBPerformOptiCatonViewController.h; sourceTree = "<group>"; };
+		D7962E0B24A9BD8000E78FF4 /* BBPerformOptiCatonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBPerformOptiCatonViewController.m; sourceTree = "<group>"; };
+		D7962E0D24A9BDBB00E78FF4 /* BBPerformOptiPowerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBPerformOptiPowerViewController.h; sourceTree = "<group>"; };
+		D7962E0E24A9BDBB00E78FF4 /* BBPerformOptiPowerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBPerformOptiPowerViewController.m; sourceTree = "<group>"; };
+		D7962E1024A9BDCA00E78FF4 /* BBPerformOptiNetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBPerformOptiNetViewController.h; sourceTree = "<group>"; };
+		D7962E1124A9BDCA00E78FF4 /* BBPerformOptiNetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBPerformOptiNetViewController.m; sourceTree = "<group>"; };
 		D7D397A52487385600FDB7BA /* BBMemoryModelLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBMemoryModelLayer.h; sourceTree = "<group>"; };
 		D7D397A62487385600FDB7BA /* BBMemoryModelLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBMemoryModelLayer.m; sourceTree = "<group>"; };
 		D7D397AE2487444600FDB7BA /* BBiOSBasicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBiOSBasicViewController.h; sourceTree = "<group>"; };
@@ -635,6 +654,39 @@
 			path = APIManager;
 			sourceTree = "<group>";
 		};
+		D7962DFA24A9B84500E78FF4 /* html */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = html;
+			sourceTree = "<group>";
+		};
+		D7962DFB24A9B84C00E78FF4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D7962DFD24A9B8BF00E78FF4 /* BBPerformOptiViewController.h */,
+				D7962DFE24A9B8BF00E78FF4 /* BBPerformOptiViewController.m */,
+				D7962E0724A9BD7400E78FF4 /* BBPerformOptiStartViewController.h */,
+				D7962E0824A9BD7400E78FF4 /* BBPerformOptiStartViewController.m */,
+				D7962E0A24A9BD8000E78FF4 /* BBPerformOptiCatonViewController.h */,
+				D7962E0B24A9BD8000E78FF4 /* BBPerformOptiCatonViewController.m */,
+				D7962E0D24A9BDBB00E78FF4 /* BBPerformOptiPowerViewController.h */,
+				D7962E0E24A9BDBB00E78FF4 /* BBPerformOptiPowerViewController.m */,
+				D7962E1024A9BDCA00E78FF4 /* BBPerformOptiNetViewController.h */,
+				D7962E1124A9BDCA00E78FF4 /* BBPerformOptiNetViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D7962DFC24A9B85300E78FF4 /* ModelLayer */ = {
+			isa = PBXGroup;
+			children = (
+				D7962E0124A9B9C300E78FF4 /* BBPerformOptiModelLayer.h */,
+				D7962E0224A9B9C300E78FF4 /* BBPerformOptiModelLayer.m */,
+			);
+			path = ModelLayer;
+			sourceTree = "<group>";
+		};
 		D7D397A92487433200FDB7BA /* iOS基础 */ = {
 			isa = PBXGroup;
 			children = (
@@ -887,6 +939,10 @@
 		D7D3981D2488D90C00FDB7BA /* 性能优化 */ = {
 			isa = PBXGroup;
 			children = (
+				D7962E0024A9B96A00E78FF4 /* BBPerformOptiDataKeys.h */,
+				D7962DFA24A9B84500E78FF4 /* html */,
+				D7962DFB24A9B84C00E78FF4 /* Controller */,
+				D7962DFC24A9B85300E78FF4 /* ModelLayer */,
 			);
 			path = "性能优化";
 			sourceTree = "<group>";
@@ -1111,6 +1167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7628BB62485E8AE00F89AB5 /* BaseTabBarViewController.m in Sources */,
+				D7962E0C24A9BD8000E78FF4 /* BBPerformOptiCatonViewController.m in Sources */,
 				D7D397F72487A83000FDB7BA /* BBNetworkModelLayer.m in Sources */,
 				D7D39848248DDFD900FDB7BA /* BBKVCViewController.m in Sources */,
 				D7628C0424864D2700F89AB5 /* AtomicTestObject.m in Sources */,
@@ -1128,6 +1185,8 @@
 				D7628BDA2485F0BE00F89AB5 /* BBMultithreadViewController.m in Sources */,
 				D7D3985D248DE4DA00FDB7BA /* BBMRCToARCViewController.m in Sources */,
 				D7D397B02487444600FDB7BA /* BBiOSBasicViewController.m in Sources */,
+				D7962DFF24A9B8BF00E78FF4 /* BBPerformOptiViewController.m in Sources */,
+				D7962E0F24A9BDBB00E78FF4 /* BBPerformOptiPowerViewController.m in Sources */,
 				D7628B792485E5FF00F89AB5 /* AppDelegate.m in Sources */,
 				D7D397C3248769AE00FDB7BA /* BBPropertyViewController.m in Sources */,
 				D7D397D32487852600FDB7BA /* BBDescCompareViewController.m in Sources */,
@@ -1142,6 +1201,7 @@
 				D7D397DB24878E8200FDB7BA /* BBWeakDetailViewController.m in Sources */,
 				D7D398222488DA1E00FDB7BA /* BBKVOViewController.m in Sources */,
 				D7D39857248DE4C000FDB7BA /* BBAutoRelPoolViewController.m in Sources */,
+				D7962E0324A9B9C300E78FF4 /* BBPerformOptiModelLayer.m in Sources */,
 				D7D39851248DE4A400FDB7BA /* BBAssociateViewController.m in Sources */,
 				D7628BF72486451100F89AB5 /* AtomicModel.m in Sources */,
 				D7D39854248DE4B000FDB7BA /* BBCopyTypeViewController.m in Sources */,
@@ -1154,7 +1214,9 @@
 				D7D397D824878E7500FDB7BA /* BBCopyDetailViewController.m in Sources */,
 				D7628C08248654D700F89AB5 /* AtomicViewController.m in Sources */,
 				D7D397DF2487967C00FDB7BA /* BBMultithreadModelLayer.m in Sources */,
+				D7962E1224A9BDCA00E78FF4 /* BBPerformOptiNetViewController.m in Sources */,
 				D7628BFF248645BD00F89AB5 /* MainViewController.m in Sources */,
+				D7962E0924A9BD7400E78FF4 /* BBPerformOptiStartViewController.m in Sources */,
 				D7628BE82485F13300F89AB5 /* BBRunloopViewController.m in Sources */,
 				D7D397F22487A69D00FDB7BA /* BBOCAlgorithmModelLayer.m in Sources */,
 			);
@@ -1319,7 +1381,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				GCC_PREFIX_HEADER = "/Users/dingbinbin/Documents/code-demo/BB-project/BB-project/BBPrefixHeader.pch";
+				GCC_PREFIX_HEADER = "/Users/dingbinbin/BB-project/BB-project/BBPrefixHeader.pch";
 				INFOPLIST_FILE = "BB-project/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1338,7 +1400,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				GCC_PREFIX_HEADER = "/Users/dingbinbin/Documents/code-demo/BB-project/BB-project/BBPrefixHeader.pch";
+				GCC_PREFIX_HEADER = "/Users/dingbinbin/BB-project/BB-project/BBPrefixHeader.pch";
 				INFOPLIST_FILE = "BB-project/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
