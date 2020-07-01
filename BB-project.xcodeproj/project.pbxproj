@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		21BD293939C9E01720BDD034 /* libPods-BB-project.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28DAEC665404948108FB7BF7 /* libPods-BB-project.a */; };
+		D760A5DE24AC5C49000601B0 /* performOptiStart.html in Resources */ = {isa = PBXBuildFile; fileRef = D760A5DD24AC5C49000601B0 /* performOptiStart.html */; };
 		D7628B792485E5FF00F89AB5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7628B782485E5FF00F89AB5 /* AppDelegate.m */; };
 		D7628B822485E5FF00F89AB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7628B802485E5FF00F89AB5 /* Main.storyboard */; };
 		D7628B842485E60500F89AB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7628B832485E60500F89AB5 /* Assets.xcassets */; };
@@ -111,6 +112,7 @@
 /* Begin PBXFileReference section */
 		28DAEC665404948108FB7BF7 /* libPods-BB-project.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BB-project.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9862A9CA8F9ED77397CC6996 /* Pods-BB-project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BB-project.debug.xcconfig"; path = "Target Support Files/Pods-BB-project/Pods-BB-project.debug.xcconfig"; sourceTree = "<group>"; };
+		D760A5DD24AC5C49000601B0 /* performOptiStart.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = performOptiStart.html; sourceTree = "<group>"; };
 		D7628B742485E5FF00F89AB5 /* BB-project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BB-project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7628B772485E5FF00F89AB5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D7628B782485E5FF00F89AB5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -657,6 +659,7 @@
 		D7962DFA24A9B84500E78FF4 /* html */ = {
 			isa = PBXGroup;
 			children = (
+				D760A5DD24AC5C49000601B0 /* performOptiStart.html */,
 			);
 			path = html;
 			sourceTree = "<group>";
@@ -1114,6 +1117,7 @@
 				D7D398282489EA2B00FDB7BA /* classType-2.png in Resources */,
 				D7D397FD24888DCF00FDB7BA /* weak-step2.png in Resources */,
 				D7D3983B248DDA9600FDB7BA /* kvo-image-3.png in Resources */,
+				D760A5DE24AC5C49000601B0 /* performOptiStart.html in Resources */,
 				D7D3980F2488C7F200FDB7BA /* classInstance.html in Resources */,
 				D7D3982D2489ECD500FDB7BA /* isaPoint.html in Resources */,
 				D7D3984C248DE3A300FDB7BA /* kvc.html in Resources */,

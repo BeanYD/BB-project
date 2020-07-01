@@ -1,0 +1,30 @@
+<!--
+ * @Author: Bean.Ding
+ * @Date: 2020-07-01 13:45:28
+ * @LastEditTime: 2020-07-01 13:54:11
+ * @LastEditors: Bean.Ding
+--> 
+<!DOCTYPE html>
+<html style="padding: 20px 16px;">
+    <head>
+        <meta charset="utf-8">
+        <title>启动优化</title>
+    </head>
+
+    <body>
+        <h2><code>main()</code>函数之前耗时</h2>
+        <ul>
+            <li>动态库加载量</li>
+            <li>ObjC类的数量</li>
+            <li>C的constructor函数量</li>
+            <li>C++静态对象多少</li>
+            <li>ObjC的+load多少</li>
+        </ul>
+        <h2><code>main()</code>函数之后耗时</h2>
+        <ul>
+            <li>执行main()函数的耗时</li>
+            <li>执行applicationWillFinishLaunching的耗时</li>
+            <li>rootViewController及其childViewController的加载、view及其subviews的加载</li>
+        </ul>
+    </body>
+</html>
