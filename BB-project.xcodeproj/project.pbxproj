@@ -347,20 +347,7 @@
 			children = (
 				D7024BB824FE8DFA002A5BE3 /* TestForCategory.h */,
 				D7024BB924FE8DFA002A5BE3 /* TestForCategory.m */,
-				D7024BBC24FE8E84002A5BE3 /* BaseObject.h */,
-				D7024BBD24FE8E84002A5BE3 /* BaseObject.m */,
-				D7024BBF24FE8F2B002A5BE3 /* NextObject.h */,
-				D7024BC024FE8F2B002A5BE3 /* NextObject.m */,
-				D7024BCC24FE90CB002A5BE3 /* NextObject+cate1.h */,
-				D7024BCD24FE90CB002A5BE3 /* NextObject+cate1.m */,
-				D7024BCF24FE90D6002A5BE3 /* NextObject+cate2.h */,
-				D7024BD024FE90D6002A5BE3 /* NextObject+cate2.m */,
-				D7024BC224FE8F44002A5BE3 /* TopObject.h */,
-				D7024BC324FE8F44002A5BE3 /* TopObject.m */,
-				D7024BC524FE8F98002A5BE3 /* TopObject+cate1.h */,
-				D7024BC624FE8F98002A5BE3 /* TopObject+cate1.m */,
-				D7024BC924FE8FDA002A5BE3 /* TopObject+cate2.h */,
-				D7024BCA24FE8FDA002A5BE3 /* TopObject+cate2.m */,
+				D78A008C24FE99E600A770FF /* test */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -710,6 +697,27 @@
 				D7628C192486727300F89AB5 /* BBAPIManager.m */,
 			);
 			path = APIManager;
+			sourceTree = "<group>";
+		};
+		D78A008C24FE99E600A770FF /* test */ = {
+			isa = PBXGroup;
+			children = (
+				D7024BBC24FE8E84002A5BE3 /* BaseObject.h */,
+				D7024BBD24FE8E84002A5BE3 /* BaseObject.m */,
+				D7024BBF24FE8F2B002A5BE3 /* NextObject.h */,
+				D7024BC024FE8F2B002A5BE3 /* NextObject.m */,
+				D7024BCC24FE90CB002A5BE3 /* NextObject+cate1.h */,
+				D7024BCD24FE90CB002A5BE3 /* NextObject+cate1.m */,
+				D7024BCF24FE90D6002A5BE3 /* NextObject+cate2.h */,
+				D7024BD024FE90D6002A5BE3 /* NextObject+cate2.m */,
+				D7024BC224FE8F44002A5BE3 /* TopObject.h */,
+				D7024BC324FE8F44002A5BE3 /* TopObject.m */,
+				D7024BC524FE8F98002A5BE3 /* TopObject+cate1.h */,
+				D7024BC624FE8F98002A5BE3 /* TopObject+cate1.m */,
+				D7024BC924FE8FDA002A5BE3 /* TopObject+cate2.h */,
+				D7024BCA24FE8FDA002A5BE3 /* TopObject+cate2.m */,
+			);
+			path = test;
 			sourceTree = "<group>";
 		};
 		D7962DFA24A9B84500E78FF4 /* html */ = {
