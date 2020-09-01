@@ -32,7 +32,7 @@
             SEL sel = method_getName(method);
             const char *name_s = sel_getName(sel);
             // 执行method
-            ((void (*)(id, SEL))(void *)objc_msgSend)((id)top, sel);
+            ((void (*)(id, SEL))(void *)imp)((id)top, sel);
             NSLog(@"%s, %p", name_s, imp);
         }
         
