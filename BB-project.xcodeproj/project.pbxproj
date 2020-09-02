@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		21BD293939C9E01720BDD034 /* libPods-BB-project.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28DAEC665404948108FB7BF7 /* libPods-BB-project.a */; };
+		D7024BBA24FE8DFA002A5BE3 /* TestForCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = D7024BB924FE8DFA002A5BE3 /* TestForCategory.m */; };
+		D7024BBE24FE8E84002A5BE3 /* BaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D7024BBD24FE8E84002A5BE3 /* BaseObject.m */; };
+		D7024BC124FE8F2B002A5BE3 /* NextObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D7024BC024FE8F2B002A5BE3 /* NextObject.m */; };
+		D7024BC424FE8F44002A5BE3 /* TopObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D7024BC324FE8F44002A5BE3 /* TopObject.m */; };
+		D7024BC724FE8F98002A5BE3 /* TopObject+cate1.m in Sources */ = {isa = PBXBuildFile; fileRef = D7024BC624FE8F98002A5BE3 /* TopObject+cate1.m */; };
+		D7024BCB24FE8FDA002A5BE3 /* TopObject+cate2.m in Sources */ = {isa = PBXBuildFile; fileRef = D7024BCA24FE8FDA002A5BE3 /* TopObject+cate2.m */; };
+		D7024BCE24FE90CB002A5BE3 /* NextObject+cate1.m in Sources */ = {isa = PBXBuildFile; fileRef = D7024BCD24FE90CB002A5BE3 /* NextObject+cate1.m */; };
+		D7024BD124FE90D6002A5BE3 /* NextObject+cate2.m in Sources */ = {isa = PBXBuildFile; fileRef = D7024BD024FE90D6002A5BE3 /* NextObject+cate2.m */; };
 		D760A5DE24AC5C49000601B0 /* performOptiStart.html in Resources */ = {isa = PBXBuildFile; fileRef = D760A5DD24AC5C49000601B0 /* performOptiStart.html */; };
 		D7628B792485E5FF00F89AB5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7628B782485E5FF00F89AB5 /* AppDelegate.m */; };
 		D7628B822485E5FF00F89AB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7628B802485E5FF00F89AB5 /* Main.storyboard */; };
@@ -112,6 +120,22 @@
 /* Begin PBXFileReference section */
 		28DAEC665404948108FB7BF7 /* libPods-BB-project.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BB-project.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9862A9CA8F9ED77397CC6996 /* Pods-BB-project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BB-project.debug.xcconfig"; path = "Target Support Files/Pods-BB-project/Pods-BB-project.debug.xcconfig"; sourceTree = "<group>"; };
+		D7024BB824FE8DFA002A5BE3 /* TestForCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestForCategory.h; sourceTree = "<group>"; };
+		D7024BB924FE8DFA002A5BE3 /* TestForCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestForCategory.m; sourceTree = "<group>"; };
+		D7024BBC24FE8E84002A5BE3 /* BaseObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseObject.h; sourceTree = "<group>"; };
+		D7024BBD24FE8E84002A5BE3 /* BaseObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseObject.m; sourceTree = "<group>"; };
+		D7024BBF24FE8F2B002A5BE3 /* NextObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NextObject.h; sourceTree = "<group>"; };
+		D7024BC024FE8F2B002A5BE3 /* NextObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NextObject.m; sourceTree = "<group>"; };
+		D7024BC224FE8F44002A5BE3 /* TopObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TopObject.h; sourceTree = "<group>"; };
+		D7024BC324FE8F44002A5BE3 /* TopObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopObject.m; sourceTree = "<group>"; };
+		D7024BC524FE8F98002A5BE3 /* TopObject+cate1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TopObject+cate1.h"; sourceTree = "<group>"; };
+		D7024BC624FE8F98002A5BE3 /* TopObject+cate1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "TopObject+cate1.m"; sourceTree = "<group>"; };
+		D7024BC924FE8FDA002A5BE3 /* TopObject+cate2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TopObject+cate2.h"; sourceTree = "<group>"; };
+		D7024BCA24FE8FDA002A5BE3 /* TopObject+cate2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "TopObject+cate2.m"; sourceTree = "<group>"; };
+		D7024BCC24FE90CB002A5BE3 /* NextObject+cate1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NextObject+cate1.h"; sourceTree = "<group>"; };
+		D7024BCD24FE90CB002A5BE3 /* NextObject+cate1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NextObject+cate1.m"; sourceTree = "<group>"; };
+		D7024BCF24FE90D6002A5BE3 /* NextObject+cate2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NextObject+cate2.h"; sourceTree = "<group>"; };
+		D7024BD024FE90D6002A5BE3 /* NextObject+cate2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NextObject+cate2.m"; sourceTree = "<group>"; };
 		D760A5DD24AC5C49000601B0 /* performOptiStart.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = performOptiStart.html; sourceTree = "<group>"; };
 		D7628B742485E5FF00F89AB5 /* BB-project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BB-project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7628B772485E5FF00F89AB5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -310,6 +334,24 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		D7024BB724FE8DC9002A5BE3 /* TestCode */ = {
+			isa = PBXGroup;
+			children = (
+				D7024BBB24FE8E6A002A5BE3 /* Category */,
+			);
+			path = TestCode;
+			sourceTree = "<group>";
+		};
+		D7024BBB24FE8E6A002A5BE3 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				D7024BB824FE8DFA002A5BE3 /* TestForCategory.h */,
+				D7024BB924FE8DFA002A5BE3 /* TestForCategory.m */,
+				D78A008C24FE99E600A770FF /* test */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		D7628B6B2485E5FF00F89AB5 = {
 			isa = PBXGroup;
 			children = (
@@ -400,6 +442,7 @@
 			isa = PBXGroup;
 			children = (
 				D7D397C424876BD700FDB7BA /* BBMemoryDataKeys.h */,
+				D7024BB724FE8DC9002A5BE3 /* TestCode */,
 				D7D397C52487744B00FDB7BA /* html */,
 				D7628BC52485EC5500F89AB5 /* Controller */,
 				D7628BC72485EC6700F89AB5 /* ModelLayer */,
@@ -654,6 +697,27 @@
 				D7628C192486727300F89AB5 /* BBAPIManager.m */,
 			);
 			path = APIManager;
+			sourceTree = "<group>";
+		};
+		D78A008C24FE99E600A770FF /* test */ = {
+			isa = PBXGroup;
+			children = (
+				D7024BBC24FE8E84002A5BE3 /* BaseObject.h */,
+				D7024BBD24FE8E84002A5BE3 /* BaseObject.m */,
+				D7024BBF24FE8F2B002A5BE3 /* NextObject.h */,
+				D7024BC024FE8F2B002A5BE3 /* NextObject.m */,
+				D7024BCC24FE90CB002A5BE3 /* NextObject+cate1.h */,
+				D7024BCD24FE90CB002A5BE3 /* NextObject+cate1.m */,
+				D7024BCF24FE90D6002A5BE3 /* NextObject+cate2.h */,
+				D7024BD024FE90D6002A5BE3 /* NextObject+cate2.m */,
+				D7024BC224FE8F44002A5BE3 /* TopObject.h */,
+				D7024BC324FE8F44002A5BE3 /* TopObject.m */,
+				D7024BC524FE8F98002A5BE3 /* TopObject+cate1.h */,
+				D7024BC624FE8F98002A5BE3 /* TopObject+cate1.m */,
+				D7024BC924FE8FDA002A5BE3 /* TopObject+cate2.h */,
+				D7024BCA24FE8FDA002A5BE3 /* TopObject+cate2.m */,
+			);
+			path = test;
 			sourceTree = "<group>";
 		};
 		D7962DFA24A9B84500E78FF4 /* html */ = {
@@ -1170,6 +1234,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7024BCE24FE90CB002A5BE3 /* NextObject+cate1.m in Sources */,
 				D7628BB62485E8AE00F89AB5 /* BaseTabBarViewController.m in Sources */,
 				D7962E0C24A9BD8000E78FF4 /* BBPerformOptiCatonViewController.m in Sources */,
 				D7D397F72487A83000FDB7BA /* BBNetworkModelLayer.m in Sources */,
@@ -1187,10 +1252,14 @@
 				D7628BBC2485E8F200F89AB5 /* BaseViewController.m in Sources */,
 				D7D398012488BB7800FDB7BA /* BBRuntimeModelLayer.m in Sources */,
 				D7628BDA2485F0BE00F89AB5 /* BBMultithreadViewController.m in Sources */,
+				D7024BD124FE90D6002A5BE3 /* NextObject+cate2.m in Sources */,
 				D7D3985D248DE4DA00FDB7BA /* BBMRCToARCViewController.m in Sources */,
 				D7D397B02487444600FDB7BA /* BBiOSBasicViewController.m in Sources */,
+				D7024BC724FE8F98002A5BE3 /* TopObject+cate1.m in Sources */,
 				D7962DFF24A9B8BF00E78FF4 /* BBPerformOptiViewController.m in Sources */,
 				D7962E0F24A9BDBB00E78FF4 /* BBPerformOptiPowerViewController.m in Sources */,
+				D7024BC124FE8F2B002A5BE3 /* NextObject.m in Sources */,
+				D7024BC424FE8F44002A5BE3 /* TopObject.m in Sources */,
 				D7628B792485E5FF00F89AB5 /* AppDelegate.m in Sources */,
 				D7D397C3248769AE00FDB7BA /* BBPropertyViewController.m in Sources */,
 				D7D397D32487852600FDB7BA /* BBDescCompareViewController.m in Sources */,
@@ -1209,8 +1278,10 @@
 				D7D39851248DE4A400FDB7BA /* BBAssociateViewController.m in Sources */,
 				D7628BF72486451100F89AB5 /* AtomicModel.m in Sources */,
 				D7D39854248DE4B000FDB7BA /* BBCopyTypeViewController.m in Sources */,
+				D7024BBA24FE8DFA002A5BE3 /* TestForCategory.m in Sources */,
 				D7628B8A2485E60500F89AB5 /* main.m in Sources */,
 				D7628C1A2486727300F89AB5 /* BBAPIManager.m in Sources */,
+				D7024BCB24FE8FDA002A5BE3 /* TopObject+cate2.m in Sources */,
 				D7D3980C2488C0D200FDB7BA /* BBClassNatureViewController.m in Sources */,
 				D7628BEB2485F14300F89AB5 /* BBOtherViewController.m in Sources */,
 				D7D397B32487446000FDB7BA /* BBiOSBasicModelLayer.m in Sources */,
@@ -1220,6 +1291,7 @@
 				D7D397DF2487967C00FDB7BA /* BBMultithreadModelLayer.m in Sources */,
 				D7962E1224A9BDCA00E78FF4 /* BBPerformOptiNetViewController.m in Sources */,
 				D7628BFF248645BD00F89AB5 /* MainViewController.m in Sources */,
+				D7024BBE24FE8E84002A5BE3 /* BaseObject.m in Sources */,
 				D7962E0924A9BD7400E78FF4 /* BBPerformOptiStartViewController.m in Sources */,
 				D7628BE82485F13300F89AB5 /* BBRunloopViewController.m in Sources */,
 				D7D397F22487A69D00FDB7BA /* BBOCAlgorithmModelLayer.m in Sources */,

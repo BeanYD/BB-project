@@ -8,6 +8,8 @@
 
 #import "BBCateAndExtViewController.h"
 
+#import "TestForCategory.h"
+
 @interface BBCateAndExtViewController ()
 
 @end
@@ -17,16 +19,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    /**
+     1.创建一个单例收集当前的nslog，并保存，界面展示时，进行读取
+     2.针对需要进行代码验证的一些内容
+     */
+    
+    // 验证分类执行的顺序已经执行分类本类的同名方法
+    [[TestForCategory alloc] init];
+    
+    
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
